@@ -24,7 +24,9 @@ author:
   avatar: "pittsburgh.JPG"
   name: "Joonkyung Kim"
   pronouns: "he/him" # example: "she/her"
-  bio: "M.S. in Electronics Engineering, Sogang University \\ (currently Visiting Student at Carnegie Mellon Univ.)"
+  bio: |
+    Master's student in Electronics Engineering at Sogang University,
+    currently a visiting student at Carnegie Mellon University.
   location: "CY303, 35 Baekbeom-Ro, Mapo-Gu, Seoul 04107"
   employer: "Sogang University"
   uri: # URL
