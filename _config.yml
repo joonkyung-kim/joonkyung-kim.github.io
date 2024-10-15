@@ -26,8 +26,8 @@ author:
   pronouns: "he/him" # example: "she/her"
   bio: |
     Master's student in Electronics Engineering at Sogang University,
-    currently a visiting student at Carnegie Mellon University.
-  location: "CY303, 35 Baekbeom-Ro, Mapo-Gu, Seoul 04107"
+    (currently a visiting student at Carnegie Mellon University).
+  location: "35 Baekbeom-Ro, Mapo-Gu, Seoul"
   employer: "Sogang University"
   uri: # URL
   email: "0901joonkyung@gmail.com"
@@ -50,7 +50,7 @@ author:
   stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  bluesky: "bsky.app" # Replace this with you Bluesky username
+  bluesky: # Username "bsky.app" # Replace this with you Bluesky username
   facebook: # Username
   flickr: # Username
   foursquare: # Username
