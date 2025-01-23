@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ":smiley: Hello there, I'm Joonkyung!"
+title: ":smiley: 😃 Hello there, I'm Joonkyung!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
