@@ -24,9 +24,7 @@ author:
   avatar: "pittsburgh.JPG"
   name: "Joonkyung Kim"
   pronouns: "he/him" # example: "she/her"
-  bio: |
-    MS Student in Electronics Engineering @ Sogang University
-    (Currently) Visiting scholar @ Carnegie Mellon University
+  bio: MS Student @ Sogang University | Visiting scholar @ Carnegie Mellon University
   location: "35 Baekbeom-Ro, Mapo-Gu, Seoul"
   employer: "Sogang University"
   uri: # URL
