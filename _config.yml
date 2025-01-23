@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Joonkyung Kim's Homepage"
+title: "Joonkyung Kim"
 title_separator: "-"
 name: &name "Joonkyung Kim"
 description: &description "personal description"
@@ -24,7 +24,9 @@ author:
   avatar: "pittsburgh.JPG"
   name: "Joonkyung Kim"
   pronouns: "he/him" # example: "she/her"
-  bio: MS Student @ Sogang University | Visiting scholar @ Carnegie Mellon University
+  bio: |
+    MS student @ Sogang University 
+    | Visiting scholar @ Carnegie Mellon University
   location: "35 Baekbeom-Ro, Mapo-Gu, Seoul"
   employer: "Sogang University"
   uri: # URL
@@ -78,9 +80,9 @@ publication_category:
   # books:
   #   title: "Books"
   manuscripts:
-    title: "Journals"
+    title: "Journal"
   conferences:
-    title: "Conferences"
+    title: "Conference"
 
 # Site Settings
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
