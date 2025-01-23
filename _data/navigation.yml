@@ -27,5 +27,8 @@ main:
     # url: /cv/
     url: /files/paper1.pdf
 
+  - title: "Misc."
+    url: /misc/
+
   # - title: "Guide"
   #   url: /markdown/
