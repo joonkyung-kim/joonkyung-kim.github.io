@@ -6,8 +6,8 @@
 }
 
 .archive__item-teaser img {
-  max-width: 120px; /* Adjust the width of the image */
-  max-height: 120px; /* Adjust the height of the image */
+  max-width: 60px; /* Adjust the width of the image */
+  max-height: 60px; /* Adjust the height of the image */
   object-fit: cover; /* Maintain aspect ratio */
   margin-right: 15px; /* Add spacing between the image and the text */
   border-radius: 5px; /* Optional: Add rounded corners */
