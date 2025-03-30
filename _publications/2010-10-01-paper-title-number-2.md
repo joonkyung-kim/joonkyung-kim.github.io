@@ -1,7 +1,7 @@
 ---
 title: "Paper Title Number 2"
 collection: publications
-category: Published
+category: conferences
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'This paper is about the number 2.'
 date: 2010-10-01
