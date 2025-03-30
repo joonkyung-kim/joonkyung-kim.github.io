@@ -1,16 +1,23 @@
 ---
-title: "Paper Title Number 2"
+category: manuscripts
+citation: Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>.
+  1(2).
 collection: publications
-category: conferences
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2.'
 date: 2010-10-01
-venue: 'Journal 1'
+excerpt: This paper is about the number 2. The number 3 is left for future work.
 header:
-  teaser: '/images/paper2-thumbnail.png'
-paperurl: 'http://example.com/paper2.pdf'
-slidesurl: 'http://example.com/slides2.pdf'
-youtubeurl: 'http://example.com/youtube2'
+  teaser: /images/default-thumbnail.png
+paperurl: http://academicpages.github.io/files/paper2.pdf
+permalink: /publication/2010-10-01-paper-title-number-2
+slidesurl: http://academicpages.github.io/files/slides2.pdf
+title: Paper Title Number 2
+venue: Journal 1
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper is about the number 2. The number 3 is left for future work.
+
+[Download slides here](http://academicpages.github.io/files/slides2.pdf)
+
+[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+
+Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).

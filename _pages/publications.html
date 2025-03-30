@@ -7,23 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Published Section -->
-<h2>Published Papers</h2>
+<h2>Publications</h2>
 <hr />
+
 {% for post in site.publications reversed %}
-  {% if post.category == "conferences" %}
-    {% include archive-single.html type="list" %}
-  {% endif %}
+  {% include custom-publication.html %}
 {% endfor %}
-
-<!-- Preprints Section -->
-<h2>Preprints</h2>
-<hr />
-{% for post in site.publications reversed %}
-  {% if post.category == "manuscripts" %}
-    {% include archive-single.html type="grid" %}
-  {% endif %}
-{% endfor %}
-
-
-

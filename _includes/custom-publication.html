@@ -1,0 +1,35 @@
+<div class="pub-card" style="display: flex; margin-bottom: 2rem;">
+    <!-- Left: Thumbnail -->
+    <div style="flex: 0 0 200px; margin-right: 1.5rem;">
+      <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}" style="max-width: 100%; border-radius: 8px;">
+    </div>
+  
+    <!-- Right: Content -->
+    <div>
+      <h3 style="margin-top: 0; margin-bottom: 0.3rem;">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+  
+      {% if post.authors %}
+        <p style="margin-bottom: 0.2rem;"><strong>{{ post.authors }}</strong></p>
+      {% endif %}
+  
+      {% if post.venue %}
+        <p style="margin-bottom: 0.5rem;"><i>{{ post.venue }}</i></p>
+      {% endif %}
+  
+      {% if post.buttons %}
+        <p>
+          {% for btn in post.buttons %}
+            <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
+              {% if btn.type == "paper" %}📄 Paper{% endif %}
+              {% if btn.type == "video" %}🎥 Video{% endif %}
+              {% if btn.type == "code" %}💻 Code{% endif %}
+              {% if btn.type == "website" %}🌐 Website{% endif %}
+            </a>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+  
