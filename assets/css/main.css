@@ -6,11 +6,11 @@
 }
 
 .archive__item-teaser img {
-  max-width: 60px; /* Adjust the width of the image */
-  max-height: 60px; /* Adjust the height of the image */
-  object-fit: cover; /* Maintain aspect ratio */
-  margin-right: 15px; /* Add spacing between the image and the text */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  max-width: 50px; /* Adjust the width as needed */
+  max-height: 50px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+  margin-right: 15px; /* Adds spacing between the image and the title */
+  float: left; /* Aligns the image to the left of the title */
 }
 
 .archive__item-content {
@@ -28,3 +28,17 @@
   color: #555;
   margin: 5px 0;
 }
+
+.archive__item-teaser {
+  display: block;
+}
+
+.archive__item-content h2.archive__item-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.archive__item-content p {
+  font-style: italic;
+}
+
