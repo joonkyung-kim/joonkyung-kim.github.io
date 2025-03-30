@@ -17,11 +17,12 @@ author_profile: true
   </p>
 </div>
 
-<!-- 📘 Journal Articles -->
-<h2>Journal Articles</h2>
+
+<!-- 📝 Preprints -->
+<h2>Preprints</h2>
 <hr />
 {% for post in site.publications reversed %}
-  {% if post.category == "journals" %}
+  {% if post.category == "manuscripts" %}
     {% include custom-publication.html %}
   {% endif %}
 {% endfor %}
@@ -35,11 +36,15 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<!-- 📝 Preprints -->
-<h2>Preprints</h2>
+<!-- 📘 Journal Articles -->
+<h2>Journal Articles</h2>
 <hr />
 {% for post in site.publications reversed %}
-  {% if post.category == "manuscripts" %}
+  {% if post.category == "journals" %}
     {% include custom-publication.html %}
   {% endif %}
 {% endfor %}
+
+
+
+
