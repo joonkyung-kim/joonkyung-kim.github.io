@@ -68,3 +68,36 @@
 
   </article>
 </div>
+
+<div class="archive__item grid">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="archive__item-teaser">
+      {% if post.header.teaser %}
+        <img src="{{ post.header.teaser | prepend: base_path }}" alt="Teaser Image">
+      {% else %}
+        <img src="{{ base_path }}/images/default-thumbnail.png" alt="Default Image">
+      {% endif %}
+    </div>
+    <div class="archive__item-content">
+      <h3 class="archive__item-title" itemprop="headline">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      </h3>
+      {% if post.venue %}
+        <p class="archive__item-meta">
+          Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%B %d, %Y" }}
+        </p>
+      {% endif %}
+      <p class="archive__item-links">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank">Thesis Link</a>
+        {% endif %}
+        {% if post.slidesurl %}
+          | <a href="{{ post.slidesurl }}" target="_blank">Slides</a>
+        {% endif %}
+        {% if post.youtubeurl %}
+          | <a href="{{ post.youtubeurl }}" target="_blank">YouTube</a>
+        {% endif %}
+      </p>
+    </div>
+  </article>
+</div>
