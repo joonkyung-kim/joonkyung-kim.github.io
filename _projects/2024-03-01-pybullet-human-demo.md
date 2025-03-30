@@ -5,7 +5,7 @@ permalink: /project/pybullet-human-demo/
 date: 2024-03-01
 excerpt: "Developed a PyBullet-based interactive environment to collect human demonstrations for robot navigation learning."
 image:
-  feature: /images/pybullet-demo.png
+  feature: /images/default-thumbnail.png
 ---
 
 This interactive simulation environment allowed human operators to control robot navigation modes.  

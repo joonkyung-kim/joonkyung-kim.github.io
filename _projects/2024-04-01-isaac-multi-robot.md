@@ -5,7 +5,7 @@ permalink: /project/isaac-multi-robot/
 date: 2024-04-01
 excerpt: "Developed a dynamic 3D simulation in Isaac Sim to test multi-robot scalability and collision-free path planning."
 image:
-  feature: /images/isaac-sim-demo.png
+  feature: /images/default-thumbnail.png
 links:
   - label: "Video"
     url: https://youtu.be/jUhx1ooEIyU

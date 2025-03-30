@@ -5,7 +5,7 @@ permalink: /project/turtlebot4-ros2/
 date: 2024-02-01
 excerpt: "Built a real-world testing platform using TurtleBot4 robots and ROS2 for multi-robot navigation experiments."
 image:
-  feature: /images/turtlebot4-real.png
+  feature: /images/default-thumbnail.png
 links:
   - label: "Video"
     url: https://youtu.be/JB-eWCLVrME

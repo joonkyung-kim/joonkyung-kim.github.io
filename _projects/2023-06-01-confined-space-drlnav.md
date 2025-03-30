@@ -5,7 +5,7 @@ permalink: /project/confined-space-drlnav/
 date: 2023-06-01
 excerpt: "Trained a robot to safely enter tight spaces like elevators using Deep RL. Presented at UR 2023."
 image:
-  feature: /images/ur2023-nav.png
+  feature: /images/default-thumbnail.png
 links:
   - label: "Video"
     url: https://youtu.be/2i8nM7gpmm4
