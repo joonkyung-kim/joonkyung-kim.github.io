@@ -1,0 +1,30 @@
+/* Style for publication items */
+.archive__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.archive__item-teaser img {
+  max-width: 120px; /* Adjust the width of the image */
+  max-height: 120px; /* Adjust the height of the image */
+  object-fit: cover; /* Maintain aspect ratio */
+  margin-right: 15px; /* Add spacing between the image and the text */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.archive__item-content {
+  flex: 1; /* Allow the content to take up the remaining space */
+}
+
+.archive__item-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.archive__item-meta,
+.archive__item-links {
+  font-size: 0.9em;
+  color: #555;
+  margin: 5px 0;
+}
