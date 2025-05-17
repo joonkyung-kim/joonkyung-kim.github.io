@@ -5,9 +5,9 @@ category: conferences
 date: 2023-06-01
 permalink: /publication/room-for-me
 header:
-  teaser: /images/default-thumbnail.png
+  teaser: /images/elevator_paper_fig_turtlebot.png
 authors: Joonkyung Kim, Changjoo Nam
-venue: Proc. of Int. Conf. on Ubiquitous Robots (UR), IEEE, 2023
+venue: Int. Conf. on Ubiquitous Robots (UR), IEEE, 2023
 buttons:
   - type: paper
     url: https://ieeexplore.ieee.org/abstract/document/10202306
