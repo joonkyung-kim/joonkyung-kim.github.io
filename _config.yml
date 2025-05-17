@@ -81,7 +81,9 @@ publication_category:
   manuscripts:
     title: "Preprints"
   conferences:
-    title: "Published"
+    title: "Conferences"
+  journals:
+    title: "Journals"
   # preprints:
   #   title: "Preprints"
 
