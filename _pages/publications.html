@@ -18,31 +18,10 @@ author_profile: true
 </div>
 
 
-<!-- 📝 Preprints -->
-<h2>Preprints</h2>
-<hr />
-{% for post in site.publications reversed %}
-  {% if post.category == "manuscripts" %}
-    {% include custom-publication.html %}
-  {% endif %}
-{% endfor %}
-
-<!-- 🧪 Conference Papers -->
-<h2>Conferences</h2>
-<hr />
-{% for post in site.publications reversed %}
-  {% if post.category == "conferences" %}
-    {% include custom-publication.html %}
-  {% endif %}
-{% endfor %}
-
-<!-- 📘 Journal Articles -->
-<h2>Journals</h2>
-<hr />
-{% for post in site.publications reversed %}
-  {% if post.category == "journals" %}
-    {% include custom-publication.html %}
-  {% endif %}
+<!-- 📚 All Publications (Chronological Order) -->
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_publications %}
+  {% include custom-publication.html %}
 {% endfor %}
 
 
