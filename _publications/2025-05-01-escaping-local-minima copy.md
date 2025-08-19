@@ -6,7 +6,7 @@ date: 2025-05-01
 permalink: /publication/escaping-local-minima
 header:
   teaser: /images/graphical abstract.png
-authors: Joonkyung Kim, Sangjin Park, Wonjong Lee, Woojun Kim, Hyunga Choi, Nakju Doh, Changjoo Nam
+authors: <u>Joonkyung Kim</u>, Sangjin Park, Wonjong Lee, Woojun Kim, Hyunga Choi, Nakju Doh, and Changjoo Nam
 venue: Int. Conf. on Robotics and Automation (ICRA), 2025
 buttons:
   - type: paper
