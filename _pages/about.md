@@ -13,11 +13,11 @@ redirect_from:
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
 
-I am a 2nd-year MS candidate in the [AI Robotics Lab](https://airobotics.sogang.ac.kr/), Department of Electronic Engineering at Sogang University, under the supervision of Prof. [Changjoo Nam](https://sites.google.com/site/changjoonam/). Currently, I am a visiting scholar at Carnegie Mellon University (Aug. 2024 – Feb. 2025). 
+I am a Ph.D. student in the Department of Computer Science and Engineering at Texas A&M University, advised by Prof. Yiwei Lyu. I received my M.S. in Electronic Engineering from Sogang University, where I was a member of the AI Robotics Lab under the supervision of Prof. Changjoo Nam. From Aug. 2024 to Feb. 2025, I also worked as a Visiting Scholar at Carnegie Mellon University.
 
-My research focuses on enabling the safe and seamless application of robots in real-world environments and extending these principles to multi-agent systems. With experience in safe navigation for mobile and multi-robot systems, I aim to develop algorithms that ensure safety in uncertain environments while fostering collaboration in multi-agent frameworks. I aspire to advance robotics for integration into complex, unpredictable settings, including human society.
+My research focuses on developing safe and reliable robotic systems that can operate seamlessly in real-world and multi-agent environments. I am particularly interested in systems that ensure safety under uncertainty and promote collaboration among multiple agents, with the long-term goal of enabling robots to integrate into complex, dynamic human-centered settings.
 
-**Research Interests**: Cooperative Multi-Robot/Agent Systems, Safety Control, Navigation
+**Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics
 
 <!-- A data-driven personal website
 ======
