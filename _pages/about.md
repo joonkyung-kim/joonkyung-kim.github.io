@@ -21,12 +21,12 @@ My research focuses on safe and reliable robotic systems for real-world and mult
 
 ## 📰 Recent News
 
-- [Aug 25, 2025] Started my Ph.D. in the Department of Computer Science and Engineering at Texas A&M University.  
-- [Aug 02, 2025] Our paper was accepted for presentation at the Conference on Robot Learning (CoRL) 2025.  
-- [Jun 16, 2025] Our paper was accepted for presentation at IEEE/RSJ IROS 2025.  
-- [Jun 11, 2025] Our paper was accepted for presentation at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.  
-- [Jan 28, 2025] Our paper was accepted for presentation at IEEE ICRA 2025.  
-- [Aug 2024 – Feb 2025] Visiting Scholar at Carnegie Mellon University. 
+- **[Aug 25, 2025]** Started my Ph.D. in the Department of Computer Science and Engineering at Texas A&M University.  
+- **[Aug 02, 2025]** Our paper is accepted for presentation at the Conference on Robot Learning (CoRL) 2025.  
+- **[Jun 16, 2025]** Our paper is accepted for presentation at IEEE/RSJ IROS 2025.  
+- **[Jun 11, 2025]** Our paper is accepted for presentation at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.  
+- **[Jan 28, 2025]** Our paper is accepted for presentation at IEEE ICRA 2025.  
+- **[Aug 2024 – Feb 2025]** Visiting Scholar at Carnegie Mellon University. 
 
 <!-- A data-driven personal website
 ======
