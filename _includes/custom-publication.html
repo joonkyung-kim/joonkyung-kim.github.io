@@ -7,20 +7,20 @@
 
   <!-- Right: Content -->
   <div>
-    <h3 style="margin-top: 0; margin-bottom: 0.1rem; font-size: 1.1em;">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <h3 style="margin-top: 0; margin-bottom: 0.05rem; font-size: 1.1em;">
+      <a href="{{ post.url | relative_url }}" style="text-decoration: none;">{{ post.title }}</a>
     </h3>
 
     {% if post.authors %}
-    <p style="margin-bottom: 0.1rem; font-size: 0.9em;"><strong>{{ post.authors }}</strong></p>
+    <p style="margin-bottom: 0.05rem; font-size: 0.9em;">{{ post.authors }}</p>
     {% endif %}
 
     {% if post.venue %}
-    <p style="margin-bottom: 0.2rem; font-size: 0.85em;"><i>{{ post.venue }}</i></p>
+    <p style="margin-bottom: 0.05rem; font-size: 0.85em;"><i>{{ post.venue }}</i></p>
     {% endif %}
 
     {% if post.buttons %}
-    <p style="font-size: 0.9em;">
+    <p style="font-size: 0.9em; margin-top: 0.05rem;">
       {% for btn in post.buttons %}
       <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
         {% if btn.type == "paper" %}📄 Paper{% endif %}

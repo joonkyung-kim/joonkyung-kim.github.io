@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "😃 Hello there, I'm Joonkyung!"
+title: "Hello, I'm Joonkyung! 😃"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -18,6 +18,15 @@ I am a Ph.D. student in the Department of Computer Science and Engineering at Te
 My research focuses on safe and reliable robotic systems for real-world and multi-agent environments. I am particularly interested in ensuring safety under uncertainty and enabling collaboration among multiple agents, with the long-term goal of integrating robots into complex, human-centered settings.
 
 **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics
+
+## 📰 Recent News
+
+- [Aug 25, 2025] Started my Ph.D. in the Department of Computer Science and Engineering at Texas A&M University.  
+- [Aug 02, 2025] Our paper was accepted for presentation at the Conference on Robot Learning (CoRL) 2025.  
+- [Jun 16, 2025] Our paper was accepted for presentation at IEEE/RSJ IROS 2025.  
+- [Jun 11, 2025] Our paper was accepted for presentation at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.  
+- [Jan 28, 2025] Our paper was accepted for presentation at IEEE ICRA 2025.  
+- [Aug 2024 – Feb 2025] Visiting Scholar at Carnegie Mellon University. 
 
 <!-- A data-driven personal website
 ======
