@@ -6,7 +6,7 @@ date: 2025-03-01
 permalink: /publication/safe-interval-rrt
 header:
   teaser: /images/SI-RRT_fig.png
-authors: Joonyeol Sim, <u>Joonkyung Kim</u>, and Changjoo Nam
+authors: Joonyeol Sim, <u>Joonkyung Kim</u>, and Changjoo Nam<sup>*</sup>
 venue: Preprint
 buttons:
   - type: paper

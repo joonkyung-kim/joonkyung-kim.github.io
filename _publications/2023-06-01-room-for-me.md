@@ -6,7 +6,7 @@ date: 2023-06-01
 permalink: /publication/room-for-me
 header:
   teaser: /images/elevator_paper_fig_turtlebot.png
-authors: <u>Joonkyung Kim</u> and Changjoo Nam
+authors: <u>Joonkyung Kim</u> and Changjoo Nam<sup>*</sup>
 venue: Int. Conf. on Ubiquitous Robots (UR), 2023
 buttons:
   - type: paper
