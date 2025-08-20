@@ -15,7 +15,7 @@ buttons:
     url: https://youtu.be/2i8nM7gpmm4
 ---
 
-
+<!-- 
 Inspired by challenges in elevator navigation, this work uses deep reinforcement learning to enable robots to safely enter confined spaces.
 
 ### Highlights
@@ -27,4 +27,4 @@ Inspired by challenges in elevator navigation, this work uses deep reinforcement
 ### Media
 
 🎥 [Demo Video](https://youtu.be/2i8nM7gpmm4)  
-📄 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10202306)
+📄 [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10202306) -->

@@ -15,7 +15,7 @@ buttons:
     url: https://youtu.be/jUhx1ooEIyU?feature=shared
 ---
 
-
+<!-- 
 This paper proposes **Safe Interval RRT\***, a scalable algorithm for multi-robot path planning in continuous spaces.
 
 ### Highlights
@@ -27,4 +27,4 @@ This paper proposes **Safe Interval RRT\***, a scalable algorithm for multi-robo
 ### Media
 
 🎥 [Demo Video](https://youtu.be/jUhx1ooEIyU?feature=shared)  
-📄 [ArXiv Preprint](https://arxiv.org/pdf/2404.01752)
+📄 [ArXiv Preprint](https://arxiv.org/pdf/2404.01752) -->

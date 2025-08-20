@@ -15,7 +15,7 @@ buttons:
     url: https://youtu.be/5-W0MCVjBX8?feature=shared
 ---
 
-
+<!-- 
 We introduce a hybrid navigation algorithm that switches between Artificial Potential Field (APF) and Wall-Following (WF) to overcome local minima in decentralized multi-robot systems.
 
 ### Highlights
@@ -27,4 +27,4 @@ We introduce a hybrid navigation algorithm that switches between Artificial Pote
 ### Media
 
 🎥 [Demo Video](https://youtu.be/5-W0MCVjBX8?feature=shared)  
-📄 [Paper Link](https://www.arxiv.org/abs/2409.10332)
+📄 [Paper Link](https://www.arxiv.org/abs/2409.10332) -->
