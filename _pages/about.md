@@ -19,11 +19,11 @@ I received my **M.S. in Electronic Engineering** from Sogang University, where I
 
 **My Research**
 
-My research so far has focused on decentralized multi-robot navigation using onboard sensors (2D LiDAR and monocular cameras), with an emphasis on safety and resolving conflicts that arise in decentralized settings (i.e., without communication or a shared map).
+My research has focused on decentralized multi-robot navigation using onboard sensors (2D LiDAR and monocular cameras), with an emphasis on safety and conflict resolution in settings without communication or a shared map.
 
-As I begin my Ph.D., I am particularly interested in multi-agent control from a control-theoretic perspective, especially in probabilistic risk-aware decision making under uncertainty. Broadly, my goal is to ensure safety and enable collaboration among multiple agents, ultimately facilitating the integration of robots into complex, human-centered environments.
+Currently, I am interested in multi-agent control from a control-theoretic perspective, particularly probabilistic risk-aware decision making under uncertainty. My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments.
 
-If you would like to connect or discuss related topics, please feel free to reach out.  
+If you would like to chat or connect, I’d be happy to hear from you!
 
 ## 📫 Contact
 - 📧 Email: joonkyung@tamu.edu    
