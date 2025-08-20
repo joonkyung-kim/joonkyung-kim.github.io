@@ -30,13 +30,13 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-## 📰 Recent News
+## 📰 Updates
 
-- **[Aug 25, 2025]** 🎓 Started my Ph.D. in Computer Science and Engineering at Texas A&M University.  
-- **[Aug 02, 2025]** 📄 Our paper was accepted at **CoRL 2025**.  
-- **[Jun 16, 2025]** 📄 Our paper was accepted at **IEEE/RSJ IROS 2025**.  
-- **[Jun 11, 2025]** 📄 Our paper was accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.  
-- **[Jan 28, 2025]** 📄 Our paper was accepted at **IEEE ICRA 2025**.  
+- **[Aug 25, 2025]** 🎓 Starting my Ph.D. in Computer Science and Engineering at Texas A&M University.  
+- **[Aug 02, 2025]** 📄 Our paper is accepted at **CoRL 2025**.  
+- **[Jun 16, 2025]** 📄 Our paper is accepted at **IEEE/RSJ IROS 2025**.  
+- **[Jun 11, 2025]** 📄 Our paper is accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.  
+- **[Jan 28, 2025]** 📄 Our paper is accepted at **IEEE ICRA 2025**.  
 - **[Aug 2024 – Feb 2025]** 🌎 Visiting Scholar at **Carnegie Mellon University**.
 
 
