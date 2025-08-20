@@ -17,8 +17,8 @@ redirect_from:
 I am a **Ph.D. student** in the Department of **Computer Science and Engineering at Texas A&M University**, advised by **Prof. Yiwei Lyu**.  
 I received my **M.S. in Electronic Engineering** from Sogang University, where I was a member of the **AI Robotics Lab** under **Prof. Changjoo Nam**. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
-**My Research**
 
+**My Research**
 My research has focused on decentralized multi-robot navigation using onboard sensors (2D LiDAR and monocular cameras), with an emphasis on safety and conflict resolution in settings without communication or a shared map.
 
 Currently, I am interested in multi-agent control from a control-theoretic perspective, particularly probabilistic risk-aware decision making under uncertainty. My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments.
