@@ -12,21 +12,37 @@ redirect_from:
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
+## 👨‍🎓 About Me
 
-I am a Ph.D. student in the Department of Computer Science and Engineering at Texas A&M University, advised by Prof. Yiwei Lyu. I received my M.S. in Electronic Engineering from Sogang University, where I was a member of the AI Robotics Lab under the supervision of Prof. Changjoo Nam. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
+I am a **Ph.D. student** in the Department of **Computer Science and Engineering at Texas A&M University**, advised by **Prof. Yiwei Lyu**.  
+I received my **M.S. in Electronic Engineering** from Sogang University, where I was a member of the **AI Robotics Lab** under **Prof. Changjoo Nam**. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
-My research focuses on safe and reliable robotic systems for real-world and multi-agent environments. I am particularly interested in ensuring safety under uncertainty and enabling collaboration among multiple agents, with the long-term goal of integrating robots into complex, human-centered settings.
+**My Research**
 
-**Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics
+My research so far has focused on decentralized multi-robot navigation using onboard sensors (2D LiDAR and monocular cameras), with an emphasis on safety and resolving conflicts that arise in decentralized settings (i.e., without communication or a shared map).
+
+As I begin my Ph.D., I am particularly interested in multi-agent control from a control-theoretic perspective, especially in probabilistic risk-aware decision making under uncertainty. Broadly, my goal is to ensure safety and enable collaboration among multiple agents, ultimately facilitating the integration of robots into complex, human-centered environments.
+
+If you would like to connect or discuss related topics, please feel free to reach out.  
+
+## 📫 Contact
+- 📧 Email: joonkyung@tamu.edu    
+- 💼 [LinkedIn](https://linkedin.com/)
+
+
+<!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
 ## 📰 Recent News
 
-- **[Aug 25, 2025]** I am starting my Ph.D. in the Department of Computer Science and Engineering at Texas A&M University.  
-- **[Aug 02, 2025]** Our paper is accepted for presentation at the Conference on Robot Learning (CoRL) 2025.  
-- **[Jun 16, 2025]** Our paper is accepted for presentation at IEEE/RSJ IROS 2025.  
-- **[Jun 11, 2025]** Our paper is accepted for presentation at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.  
-- **[Jan 28, 2025]** Our paper is accepted for presentation at IEEE ICRA 2025.  
-- **[Aug 2024 – Feb 2025]** I am visiting Carnegie Mellon University as a Visiting Scholar.   
+- **[Aug 25, 2025]** 🎓 Started my Ph.D. in Computer Science and Engineering at Texas A&M University.  
+- **[Aug 02, 2025]** 📄 Our paper was accepted at **Conference on Robot Learning (CoRL) 2025**.  
+- **[Jun 16, 2025]** 📄 Our paper was accepted at **IEEE/RSJ IROS 2025**.  
+- **[Jun 11, 2025]** 📄 Our paper was accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.  
+- **[Jan 28, 2025]** 📄 Our paper was accepted at **IEEE ICRA 2025**.  
+- **[Aug 2024 – Feb 2025]** 🌎 Visiting Scholar at **Carnegie Mellon University**.
+
+
+
 
 <!-- A data-driven personal website
 ======
