@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Joonkyung! 😃"
+title: "Hello, I'm Joonkyung!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,12 +14,11 @@ redirect_from:
 
 ## 👨‍🎓 About Me
 
-I am a **Ph.D. student** in the Department of **Computer Science and Engineering at Texas A&M University**, advised by **Prof. Yiwei Lyu**.  
-I received my **M.S. in Electronic Engineering** from **Sogang University**, where I was a member of the **AI Robotics Lab** under **Prof. Changjoo Nam**. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
+I am a Ph.D. student in **Computer Science and Engineering at Texas A&M University**, advised by **Prof. Yiwei Lyu**. I received my **M.S. in Electronic Engineering** from **Sogang University**, where I worked in the **AI Robotics Lab** under **Prof. Changjoo Nam**. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at **Carnegie Mellon University**.
 
-**My Research** has focused on decentralized multi-robot navigation using onboard sensors (2D LiDAR and monocular cameras), with an emphasis on safety and conflict resolution in settings without communication or a shared map.
+My previous research focused on **decentralized multi-robot navigation** using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on **safety and conflict resolution**. More recently, I have developed a strong interest in **multi-agent control** under uncertainty, with a focus on **probabilistic, risk-aware decision making**.
 
-Currently, I am interested in multi-agent control from a control-theoretic perspective, particularly probabilistic risk-aware decision making under uncertainty. My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments.
+<!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
 
 If you would like to chat or connect, I’d be happy to hear from you!
 
@@ -32,12 +31,12 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 ## 📰 Updates
 
-- [Aug 25, 2025] 🎓 Starting my Ph.D. in Computer Science and Engineering at Texas A&M University.  
+- [Aug 25, 2025] 🎓 Starting my Ph.D. in Computer Science and Engineering at **Texas A&M University**  
 - [Aug 02, 2025] 📄 Our paper is accepted at **CoRL 2025**.  
 - [Jun 16, 2025] 📄 Our paper is accepted at **IEEE/RSJ IROS 2025**.  
 - [Jun 11, 2025] 📄 Our paper is accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.  
 - [Jan 28, 2025] 📄 Our paper is accepted at **IEEE ICRA 2025**.  
-- [Aug 2024 – Feb 2025] 🌎 Visiting Scholar at **Carnegie Mellon University**.
+- [Aug 2024 – Feb 2025] 🌎 Visiting Scholar at **Carnegie Mellon University**
 
 
 
