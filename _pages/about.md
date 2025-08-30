@@ -16,20 +16,20 @@ redirect_from:
 
 I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. Yiwei Lyu. I received my M.S. in Electronic Engineering from Sogang University, where I worked in the AI Robotics Lab under Prof. Changjoo Nam. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
-My previous research focused on decentralized multi-robot navigation** using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on safety and conflict resolution. More recently, I have developed a strong interest in multi-agent control under uncertainty, with a focus on probabilistic, risk-aware decision making.
+My previous research focused on decentralized multi-robot navigation using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on safety and conflict resolution. Recently, I have developed a strong interest in multi-agent control under uncertainty, with a focus on probabilistic, risk-aware decision making.
 
 <!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
 
 If you would like to chat or connect, I’d be happy to hear from you!
 
-### 📫 Contact
+## 📫 Contact
 📧 Email: joonkyung@tamu.edu    
 💼 [LinkedIn](https://linkedin.com/)
 
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-### 📰 Updates
+## 📰 Updates
 
 - [Aug 2025] 🎓 Started my Ph.D. in Computer Science and Engineering at **Texas A&M University**  
 - [Aug 2025] 📄 Our paper is accepted at **CoRL 2025**.  
