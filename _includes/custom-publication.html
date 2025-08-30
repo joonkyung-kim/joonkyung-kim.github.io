@@ -1,26 +1,26 @@
 <div class="pub-card" style="display: flex; margin-bottom: 0.8rem;">
   <!-- Left: Thumbnail -->
-  <div style="flex: 0 0 150px; margin-right: 1rem;">
+  <div style="flex: 0 0 120px; margin-right: 1rem;">
     <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}"
       style="max-width: 100%; border-radius: 6px; border: 2px solid #333;">
   </div>
 
   <!-- Right: Content -->
   <div>
-    <h3 style="margin-top: 0; margin-bottom: 0.05rem; font-size: 1.1em;">
+    <h3 style="margin-top: 0; margin-bottom: 0.1rem; font-size: 1.1em;">
       <a href="{{ post.url | relative_url }}" style="text-decoration: none;">{{ post.title }}</a>
     </h3>
 
     {% if post.authors %}
-    <p style="margin-bottom: 0.05rem; font-size: 0.9em;">{{ post.authors }}</p>
+    <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.9em;">{{ post.authors }}</p>
     {% endif %}
 
     {% if post.venue %}
-    <p style="margin-bottom: 0.05rem; font-size: 0.85em;"><i>{{ post.venue }}</i></p>
+    <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.85em;"><i>{{ post.venue }}</i></p>
     {% endif %}
 
     {% if post.buttons %}
-    <p style="font-size: 0.9em; margin-top: 0.05rem;">
+    <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
       {% for btn in post.buttons %}
       <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
         {% if btn.type == "paper" %}📄 Paper{% endif %}

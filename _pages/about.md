@@ -24,7 +24,7 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 <!-- ## 📫 Contact -->
 📧 joonkyung@tamu.edu    
-💼 [LinkedIn](https://linkedin.com/)
+🔗 [LinkedIn](https://linkedin.com/)
 
 
 
