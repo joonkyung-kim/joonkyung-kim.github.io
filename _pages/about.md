@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Joonkyung!"
+title: "Hello, I'm Joonkyung Kim!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,30 +12,30 @@ redirect_from:
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-## 👨‍🎓 About Me
+### 👨‍🎓 About Me
 
-I am a Ph.D. student in **Computer Science and Engineering at Texas A&M University**, advised by **Prof. Yiwei Lyu**. I received my **M.S. in Electronic Engineering** from **Sogang University**, where I worked in the **AI Robotics Lab** under **Prof. Changjoo Nam**. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at **Carnegie Mellon University**.
+I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. Yiwei Lyu. I received my M.S. in Electronic Engineering from Sogang University, where I worked in the AI Robotics Lab under Prof. Changjoo Nam. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
-My previous research focused on **decentralized multi-robot navigation** using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on **safety and conflict resolution**. More recently, I have developed a strong interest in **multi-agent control** under uncertainty, with a focus on **probabilistic, risk-aware decision making**.
+My previous research focused on decentralized multi-robot navigation** using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on safety and conflict resolution. More recently, I have developed a strong interest in multi-agent control under uncertainty, with a focus on probabilistic, risk-aware decision making.
 
 <!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
 
 If you would like to chat or connect, I’d be happy to hear from you!
 
-## 📫 Contact
-- 📧 Email: joonkyung@tamu.edu    
-- 💼 [LinkedIn](https://linkedin.com/)
+### 📫 Contact
+📧 Email: joonkyung@tamu.edu    
+💼 [LinkedIn](https://linkedin.com/)
 
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-## 📰 Updates
+### 📰 Updates
 
-- [Aug 25, 2025] 🎓 Starting my Ph.D. in Computer Science and Engineering at **Texas A&M University**  
-- [Aug 02, 2025] 📄 Our paper is accepted at **CoRL 2025**.  
-- [Jun 16, 2025] 📄 Our paper is accepted at **IEEE/RSJ IROS 2025**.  
-- [Jun 11, 2025] 📄 Our paper is accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.  
-- [Jan 28, 2025] 📄 Our paper is accepted at **IEEE ICRA 2025**.  
+- [Aug 2025] 🎓 Started my Ph.D. in Computer Science and Engineering at **Texas A&M University**  
+- [Aug 2025] 📄 Our paper is accepted at **CoRL 2025**.  
+- [Jun 2025] 📄 Our paper is accepted at **IEEE/RSJ IROS 2025**.  
+- [Jun 2025] 📄 Our paper is accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.  
+- [Jan 2025] 📄 Our paper is accepted at **IEEE ICRA 2025**.  
 - [Aug 2024 – Feb 2025] 🌎 Visiting Scholar at **Carnegie Mellon University**
 
 
