@@ -30,7 +30,7 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-## 📰 Updates
+## 📰 News
 
 - [Aug 2025] Started my Ph.D. in Computer Science and Engineering at **Texas A&M University**  
 - [Aug 2025] Our paper is accepted at **CoRL 2025**.  
