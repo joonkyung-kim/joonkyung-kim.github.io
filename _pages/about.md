@@ -23,7 +23,7 @@ My previous research focused on decentralized multi-robot navigation using onboa
 If you would like to chat or connect, I’d be happy to hear from you!
 
 ## 📫 Contact
-📧 joonkyung@tamu.edu    
+📧 {firstname}@tamu.edu    
 🔗 [LinkedIn](https://linkedin.com/)
 
 
