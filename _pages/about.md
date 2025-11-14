@@ -22,15 +22,15 @@ My previous research focused on decentralized multi-robot navigation using onboa
 
 If you would like to chat or connect, I’d be happy to hear from you!
 
-## 📫 Contact
-📧 {firstname}@tamu.edu    
+## Contact
+📧 joonkyung [at] tamu [dot] com   
 🔗 [LinkedIn](https://linkedin.com/)
 
 
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-## 📰 News
+## News
 
 - [Aug 2025] Started my Ph.D. in Computer Science and Engineering at **Texas A&M University**  
 - [Aug 2025] Our paper is accepted at **CoRL 2025**.  
