@@ -12,18 +12,23 @@ redirect_from:
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-<!---### About Me--->
+<div style="margin: 2rem 0;">
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
+    <h2 style="margin: 0; color: #8B4513;">About Me</h2>
+  </div>
+  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
+    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/">Yiwei Lyu</a>. I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the <a href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
-I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. [Yiwei Lyu](https://www.cs.cmu.edu/~yiweilyu/). I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the [AI Robotics Lab](https://airobotics.sogang.ac.kr/) under Prof. [Changjoo Nam](https://sites.google.com/site/changjoonam/). From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
+    <p>My research centers on decentralized multi-robot and multi-agent systems, particularly on risk-aware and uncertainty-aware safe control for heterogeneous agents. I aim to develop principled approaches for ensuring safety, robustness, and reliable decision making in interactive and dynamic environments.</p>
 
-My research centers on decentralized multi-robot and multi-agent systems, particularly on risk-aware and uncertainty-aware safe control for heterogeneous agents. I aim to develop principled approaches for ensuring safety, robustness, and reliable decision making in interactive and dynamic environments.
+    <p>Previously, my work focused on decentralized navigation using onboard perception modalities (e.g., 2D LiDAR, monocular cameras), addressing safety and conflict resolution in multi-robot settings.</p>
 
-Previously, my work focused on decentralized navigation using onboard perception modalities (e.g., 2D LiDAR, monocular cameras), addressing safety and conflict resolution in multi-robot settings.
+    <!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
 
-<!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
-
-If you would like to chat or connect, I’d be happy to hear from you!
-
+    <p style="margin-bottom: 0;">If you would like to chat or connect, I'd be happy to hear from you!</p>
+  </div>
+</div>
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
@@ -33,14 +38,24 @@ If you would like to chat or connect, I’d be happy to hear from you!
     <h2 style="margin: 0; color: #8B4513;">News</h2>
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
-    <ul style="list-style: none; padding-left: 0; margin: 0;">
-      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2025</span> Started my Ph.D. in Computer Science and Engineering at <strong>Texas A&M University</strong></li>
-      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2025</span> Our paper is accepted at <strong>CoRL 2025</strong>.</li>
-      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jun 2025</span> Our paper is accepted at <strong>IEEE/RSJ IROS 2025</strong>.</li>
-      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jun 2025</span> Our paper is accepted at the <strong>RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning</strong>.</li>
-      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jan 2025</span> Our paper is accepted at <strong>IEEE ICRA 2025</strong>.</li>
-      <li style="margin-bottom: 0;"><span style="color: #666; margin-right: 0.5rem;">Aug 2024 – Feb 2025</span> Visiting Scholar at <strong>Carnegie Mellon University</strong></li>
-    </ul>
+    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #666;">[Aug 2025]</span> Started my Ph.D. in Computer Science and Engineering at Texas A&M University
+    </div>
+    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #666;">[Aug 2025]</span> Our paper is accepted at CoRL 2025.
+    </div>
+    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #666;">[Jun 2025]</span> Our paper is accepted at IEEE/RSJ IROS 2025.
+    </div>
+    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #666;">[Jun 2025]</span> Our paper is accepted at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.
+    </div>
+    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #666;">[Jan 2025]</span> Our paper is accepted at IEEE ICRA 2025.
+    </div>
+    <div>
+      <span style="color: #666;">[Aug 2024 – Feb 2025]</span> Visiting Scholar at Carnegie Mellon University
+    </div>
   </div>
 </div>
 
