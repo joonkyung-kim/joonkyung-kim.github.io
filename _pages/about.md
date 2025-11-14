@@ -14,7 +14,7 @@ redirect_from:
 
 <!---### About Me--->
 
-I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. Yiwei Lyu. I received my M.S. in Electronic Engineering from Sogang University, where I worked in the AI Robotics Lab under Prof. Changjoo Nam. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
+I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. [Yiwei Lyu](https://www.cs.cmu.edu/~yiweilyu/). I received my M.S. in Electronic Engineering from Sogang University, where I worked in the [AI Robotics Lab](https://airobotics.sogang.ac.kr/) under Prof. [Changjoo Nam](https://sites.google.com/site/changjoonam/). From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
 My previous research focused on decentralized multi-robot navigation using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on safety and conflict resolution. Recently, I have developed a strong interest in multi-agent control under uncertainty, with a focus on probabilistic, risk-aware decision making.
 
