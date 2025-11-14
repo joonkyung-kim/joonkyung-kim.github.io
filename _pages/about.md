@@ -16,7 +16,9 @@ redirect_from:
 
 I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. [Yiwei Lyu](https://www.cs.cmu.edu/~yiweilyu/). I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the [AI Robotics Lab](https://airobotics.sogang.ac.kr/) under Prof. [Changjoo Nam](https://sites.google.com/site/changjoonam/). From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
-My previous research focused on decentralized multi-robot navigation using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on safety and conflict resolution. Recently, I have developed a strong interest in multi-agent control under uncertainty, with a focus on probabilistic, risk-aware decision making.
+My research centers on decentralized multi-robot and multi-agent systems, particularly on risk-aware and uncertainty-aware safe control for heterogeneous agents. I aim to develop principled approaches for ensuring safety, robustness, and reliable decision making in interactive and dynamic environments.
+
+Previously, my work focused on decentralized navigation using onboard perception modalities (e.g., 2D LiDAR, monocular cameras), addressing safety and conflict resolution in multi-robot settings.
 
 <!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
 
@@ -25,26 +27,30 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-<div style="background-color: #f8f8f8; border-left: 4px solid #333; padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 4px;">
-
-## ◆ News
-
-- [Aug 2025] Started my Ph.D. in Computer Science and Engineering at **Texas A&M University**
-- [Aug 2025] Our paper is accepted at **CoRL 2025**.
-- [Jun 2025] Our paper is accepted at **IEEE/RSJ IROS 2025**.
-- [Jun 2025] Our paper is accepted at the **RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning**.
-- [Jan 2025] Our paper is accepted at **IEEE ICRA 2025**.
-- [Aug 2024 – Feb 2025] Visiting Scholar at **Carnegie Mellon University**
-
+<div style="display: flex; margin: 2rem 0;">
+  <div style="width: 6px; background-color: #8B7355; margin-right: 1.5rem; flex-shrink: 0;"></div>
+  <div style="flex-grow: 1;">
+    <h2 style="margin-top: 0; color: #8B4513;">News</h2>
+    <ul style="list-style: none; padding-left: 0;">
+      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2025</span> Started my Ph.D. in Computer Science and Engineering at <strong>Texas A&M University</strong></li>
+      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2025</span> Our paper is accepted at <strong>CoRL 2025</strong>.</li>
+      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jun 2025</span> Our paper is accepted at <strong>IEEE/RSJ IROS 2025</strong>.</li>
+      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jun 2025</span> Our paper is accepted at the <strong>RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning</strong>.</li>
+      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jan 2025</span> Our paper is accepted at <strong>IEEE ICRA 2025</strong>.</li>
+      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2024 – Feb 2025</span> Visiting Scholar at <strong>Carnegie Mellon University</strong></li>
+    </ul>
+  </div>
 </div>
 
-<div style="background-color: #f8f8f8; border-left: 4px solid #333; padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 4px;">
-
-## ◆ Contacts
-
-- joonkyung [at] tamu [dot] com
-- [LinkedIn](https://linkedin.com/)
-
+<div style="display: flex; margin: 2rem 0;">
+  <div style="width: 6px; background-color: #8B7355; margin-right: 1.5rem; flex-shrink: 0;"></div>
+  <div style="flex-grow: 1;">
+    <h2 style="margin-top: 0; color: #8B4513;">Contacts</h2>
+    <ul style="list-style: none; padding-left: 0;">
+      <li style="margin-bottom: 0.5rem;">joonkyung [at] tamu [dot] com</li>
+      <li style="margin-bottom: 0.5rem;"><a href="https://linkedin.com/">LinkedIn</a></li>
+    </ul>
+  </div>
 </div>
 
 
