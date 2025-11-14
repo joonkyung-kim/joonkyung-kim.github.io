@@ -14,7 +14,7 @@ redirect_from:
 
 <!---### About Me--->
 
-I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. [Yiwei Lyu](https://www.cs.cmu.edu/~yiweilyu/). I received my M.S. in Electronic Engineering from Sogang University, where I worked in the [AI Robotics Lab](https://airobotics.sogang.ac.kr/) under Prof. [Changjoo Nam](https://sites.google.com/site/changjoonam/). From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
+I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. [Yiwei Lyu](https://www.cs.cmu.edu/~yiweilyu/). I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the [AI Robotics Lab](https://airobotics.sogang.ac.kr/) under Prof. [Changjoo Nam](https://sites.google.com/site/changjoonam/). From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.
 
 My previous research focused on decentralized multi-robot navigation using onboard sensors (e.g., 2D LiDAR, monocular cameras), with an emphasis on safety and conflict resolution. Recently, I have developed a strong interest in multi-agent control under uncertainty, with a focus on probabilistic, risk-aware decision making.
 
@@ -25,6 +25,8 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
+<div style="background-color: #f8f8f8; border-left: 4px solid #333; padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 4px;">
+
 ## ◆ News
 
 - [Aug 2025] Started my Ph.D. in Computer Science and Engineering at **Texas A&M University**
@@ -34,11 +36,16 @@ If you would like to chat or connect, I’d be happy to hear from you!
 - [Jan 2025] Our paper is accepted at **IEEE ICRA 2025**.
 - [Aug 2024 – Feb 2025] Visiting Scholar at **Carnegie Mellon University**
 
-## ◆ Contact
+</div>
 
+<div style="background-color: #f8f8f8; border-left: 4px solid #333; padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 4px;">
 
-- joonkyung [at] tamu [dot] com   
+## ◆ Contacts
+
+- joonkyung [at] tamu [dot] com
 - [LinkedIn](https://linkedin.com/)
+
+</div>
 
 
 
