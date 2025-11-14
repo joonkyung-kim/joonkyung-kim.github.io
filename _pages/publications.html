@@ -15,11 +15,49 @@ author_profile: true
       <i class="ai ai-google-scholar-square" style="font-size: 1.2em;"></i> Google Scholar
     </a>.
   </p>
+  <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem;">
+    <strong>[P]</strong>: Preprints &nbsp;&nbsp;|&nbsp;&nbsp; <strong>[C]</strong>: Conferences &nbsp;&nbsp;|&nbsp;&nbsp; <strong>[J]</strong>: Journals
+  </p>
 </div>
 
 
-<!-- 📚 All Publications (Chronological Order) -->
+<!-- 📚 All Publications (Chronological Order with Category Numbering) -->
 {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+
+<!-- Count publications by category -->
+{% assign preprint_count = 0 %}
+{% assign conference_count = 0 %}
+{% assign journal_count = 0 %}
+
 {% for post in sorted_publications %}
-{% include custom-publication.html %}
+  {% if post.category == 'manuscripts' %}
+    {% assign preprint_count = preprint_count | plus: 1 %}
+  {% elsif post.category == 'conferences' %}
+    {% assign conference_count = conference_count | plus: 1 %}
+  {% elsif post.category == 'journals' %}
+    {% assign journal_count = journal_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<!-- Display publications with numbering -->
+{% assign current_preprint = preprint_count %}
+{% assign current_conference = conference_count %}
+{% assign current_journal = journal_count %}
+
+{% for post in sorted_publications %}
+  {% if post.category == 'manuscripts' %}
+    {% assign pub_number = current_preprint %}
+    {% assign pub_prefix = 'P' %}
+    {% assign current_preprint = current_preprint | minus: 1 %}
+  {% elsif post.category == 'conferences' %}
+    {% assign pub_number = current_conference %}
+    {% assign pub_prefix = 'C' %}
+    {% assign current_conference = current_conference | minus: 1 %}
+  {% elsif post.category == 'journals' %}
+    {% assign pub_number = current_journal %}
+    {% assign pub_prefix = 'J' %}
+    {% assign current_journal = current_journal | minus: 1 %}
+  {% endif %}
+
+  {% include custom-publication.html number=pub_number prefix=pub_prefix %}
 {% endfor %}

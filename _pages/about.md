@@ -17,7 +17,7 @@ redirect_from:
     <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #8B4513;">About Me</h2>
   </div>
-  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
+  <div>
     <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/">Yiwei Lyu</a>. I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the <a href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
     <p>My research centers on decentralized multi-robot and multi-agent systems, particularly on risk-aware and uncertainty-aware safe control for heterogeneous agents. I aim to develop principled approaches for ensuring safety, robustness, and reliable decision making in interactive and dynamic environments.</p>
@@ -38,19 +38,19 @@ redirect_from:
     <h2 style="margin: 0; color: #8B4513;">News</h2>
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
-    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+    <div style="padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid #ddd;">
       <span style="color: #666;">[Aug 2025]</span> Started my Ph.D. in Computer Science and Engineering at Texas A&M University
     </div>
-    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+    <div style="padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid #ddd;">
       <span style="color: #666;">[Aug 2025]</span> Our paper is accepted at CoRL 2025.
     </div>
-    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+    <div style="padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid #ddd;">
       <span style="color: #666;">[Jun 2025]</span> Our paper is accepted at IEEE/RSJ IROS 2025.
     </div>
-    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+    <div style="padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid #ddd;">
       <span style="color: #666;">[Jun 2025]</span> Our paper is accepted at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.
     </div>
-    <div style="padding-bottom: 0.6rem; margin-bottom: 0.6rem; border-bottom: 1px solid #ddd;">
+    <div style="padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid #ddd;">
       <span style="color: #666;">[Jan 2025]</span> Our paper is accepted at IEEE ICRA 2025.
     </div>
     <div>
@@ -64,11 +64,9 @@ redirect_from:
     <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #8B4513;">Contacts</h2>
   </div>
-  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
-    <ul style="list-style: none; padding-left: 0; margin: 0;">
-      <li style="margin-bottom: 0.5rem;">joonkyung [at] tamu [dot] com</li>
-      <li style="margin-bottom: 0;"><a href="https://linkedin.com/">LinkedIn</a></li>
-    </ul>
+  <div>
+    <p style="margin-bottom: 0.5rem;">✉ joonkyung [at] tamu [dot] com</p>
+    <p style="margin-bottom: 0;">🔗 <a href="https://linkedin.com/">LinkedIn</a></p>
   </div>
 </div>
 
