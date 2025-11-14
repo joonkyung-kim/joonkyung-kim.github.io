@@ -15,4 +15,4 @@ package-lock.json
 vendor/*
 # Ignore the Gemfile that is generated
 
-CLAUDE.md
+# CLAUDE.md
