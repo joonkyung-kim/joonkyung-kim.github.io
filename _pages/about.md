@@ -27,28 +27,32 @@ If you would like to chat or connect, I’d be happy to hear from you!
 
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
-<div style="display: flex; margin: 2rem 0;">
-  <div style="width: 6px; background-color: #8B7355; margin-right: 1.5rem; flex-shrink: 0;"></div>
-  <div style="flex-grow: 1;">
-    <h2 style="margin-top: 0; color: #8B4513;">News</h2>
-    <ul style="list-style: none; padding-left: 0;">
+<div style="margin: 2rem 0;">
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
+    <h2 style="margin: 0; color: #8B4513;">News</h2>
+  </div>
+  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
+    <ul style="list-style: none; padding-left: 0; margin: 0;">
       <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2025</span> Started my Ph.D. in Computer Science and Engineering at <strong>Texas A&M University</strong></li>
       <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2025</span> Our paper is accepted at <strong>CoRL 2025</strong>.</li>
       <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jun 2025</span> Our paper is accepted at <strong>IEEE/RSJ IROS 2025</strong>.</li>
       <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jun 2025</span> Our paper is accepted at the <strong>RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning</strong>.</li>
       <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Jan 2025</span> Our paper is accepted at <strong>IEEE ICRA 2025</strong>.</li>
-      <li style="margin-bottom: 0.8rem;"><span style="color: #666; margin-right: 0.5rem;">Aug 2024 – Feb 2025</span> Visiting Scholar at <strong>Carnegie Mellon University</strong></li>
+      <li style="margin-bottom: 0;"><span style="color: #666; margin-right: 0.5rem;">Aug 2024 – Feb 2025</span> Visiting Scholar at <strong>Carnegie Mellon University</strong></li>
     </ul>
   </div>
 </div>
 
-<div style="display: flex; margin: 2rem 0;">
-  <div style="width: 6px; background-color: #8B7355; margin-right: 1.5rem; flex-shrink: 0;"></div>
-  <div style="flex-grow: 1;">
-    <h2 style="margin-top: 0; color: #8B4513;">Contacts</h2>
-    <ul style="list-style: none; padding-left: 0;">
+<div style="margin: 2rem 0;">
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
+    <h2 style="margin: 0; color: #8B4513;">Contacts</h2>
+  </div>
+  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px;">
+    <ul style="list-style: none; padding-left: 0; margin: 0;">
       <li style="margin-bottom: 0.5rem;">joonkyung [at] tamu [dot] com</li>
-      <li style="margin-bottom: 0.5rem;"><a href="https://linkedin.com/">LinkedIn</a></li>
+      <li style="margin-bottom: 0;"><a href="https://linkedin.com/">LinkedIn</a></li>
     </ul>
   </div>
 </div>
