@@ -1,4 +1,4 @@
-<div class="pub-card" style="display: flex; margin-bottom: 1.2rem;">
+<div class="pub-card" style="display: flex; margin-bottom: 1.2rem; background-color: #f5f5f5; padding: 1rem; border-radius: 4px;">
   <!-- Left: Thumbnail -->
   <div style="flex: 0 0 150px; margin-right: 1rem;">
     <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}"
@@ -7,7 +7,7 @@
 
   <!-- Right: Content -->
   <div>
-    <h3 style="margin-top: 0; margin-bottom: 0.1rem; font-size: 1.1em; color: #000000;">
+    <h3 style="margin-top: 0; margin-bottom: 0.1rem; font-size: 1.1em; color: #000000; font-weight: normal;">
       {% if include.prefix and include.number %}
       <span style="margin-right: 0.5rem;">[{{ include.prefix }}{{ include.number }}]</span>
       {% endif %}
