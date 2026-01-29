@@ -18,13 +18,11 @@ redirect_from:
   <div>
     <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/">Yiwei Lyu</a>. I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the <a href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
-    <p>My research centers on decentralized multi-robot and multi-agent systems, particularly on risk-aware and uncertainty-aware safe control for heterogeneous agents. I aim to develop principled approaches for ensuring safety, robustness, and reliable decision making in interactive and dynamic environments.</p>
+    <p>Recently, I have been interested in research on multi-agent systems for robotics. My interests span multi-robot systems involving multiple heterogeneous robots, human–robot interaction, and the safety challenges that arise from these complex interactions.</p>
 
-    <p>Previously, my work focused on decentralized navigation using onboard perception modalities (e.g., 2D LiDAR, monocular cameras), addressing safety and conflict resolution in multi-robot settings.</p>
+    <p>As robotic technologies continue to advance and move from ideas seen in films into real world applications, I have become increasingly interested in the practical challenges that arise when robots are deployed in everyday environments. I enjoy seeing how these challenges are gradually addressed through research, and I find it meaningful to contribute to making robotic systems safer and more reliable for real world use in human society.</p>
 
-    <!-- My long-term goal is to ensure safety and enable collaboration among multiple agents, facilitating their integration into complex, human-centered environments. -->
-
-    <p style="margin-bottom: 0;">If you would like to chat or connect, I'd be happy to hear from you!</p>
+    <!-- <p style="margin-bottom: 0;">If you would like to chat or connect, I'd be happy to hear from you!</p> -->
   </div>
 </div>
 
