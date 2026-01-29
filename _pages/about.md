@@ -16,7 +16,7 @@ redirect_from:
     <h2 style="margin: 0; color: #000000;">About Me</h2>
   </div>
   <div>
-    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/"><strong>Yiwei Lyu</strong></a>. I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the <a href="https://airobotics.sogang.ac.kr/"><strong>AI Robotics Lab</strong></a> under Prof. <a href="https://sites.google.com/site/changjoonam/"><strong>Changjoo Nam</strong></a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
+    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/">Yiwei Lyu</a>. I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the <a href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
     <p>My research centers on decentralized multi-robot and multi-agent systems, particularly on risk-aware and uncertainty-aware safe control for heterogeneous agents. I aim to develop principled approaches for ensuring safety, robustness, and reliable decision making in interactive and dynamic environments.</p>
 
