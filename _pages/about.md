@@ -11,7 +11,7 @@ redirect_from:
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
 <div style="margin: 2rem 0;">
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+  <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
     <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #000000;">About Me</h2>
   </div>
@@ -31,34 +31,34 @@ redirect_from:
 <!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
 <div style="margin: 2rem 0;">
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+  <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
     <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #000000;">News</h2>
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #666;">[Aug 2025]</span> Started my Ph.D. in Computer Science and Engineering at Texas A&M University
+      <span style="color: #444;">[Aug 2025]</span> Started my Ph.D. in Computer Science and Engineering at Texas A&M University
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #666;">[Aug 2025]</span> Our paper is accepted at CoRL 2025.
+      <span style="color: #444;">[Aug 2025]</span> Our paper is accepted at CoRL 2025.
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #666;">[Jun 2025]</span> Our paper is accepted at IEEE/RSJ IROS 2025.
+      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted at IEEE/RSJ IROS 2025.
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #666;">[Jun 2025]</span> Our paper is accepted at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.
+      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #666;">[Jan 2025]</span> Our paper is accepted at IEEE ICRA 2025.
+      <span style="color: #444;">[Jan 2025]</span> Our paper is accepted at IEEE ICRA 2025.
     </div>
     <div>
-      <span style="color: #666;">[Aug 2024 – Feb 2025]</span> Visiting Scholar at Carnegie Mellon University
+      <span style="color: #444;">[Aug 2024 – Feb 2025]</span> Visiting Scholar at Carnegie Mellon University
     </div>
   </div>
 </div>
 
 <div style="margin: 2rem 0;">
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+  <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
     <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #000000;">Contacts</h2>
   </div>
