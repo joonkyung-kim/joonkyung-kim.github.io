@@ -12,8 +12,8 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
-    <h2 style="margin: 0; color: #8B4513;">About Me</h2>
+    <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
+    <h2 style="margin: 0; color: #000000;">About Me</h2>
   </div>
   <div>
     <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/"><strong>Yiwei Lyu</strong></a>. I earned my M.S. in Electronic Engineering from Sogang University, where I worked in the <a href="https://airobotics.sogang.ac.kr/"><strong>AI Robotics Lab</strong></a> under Prof. <a href="https://sites.google.com/site/changjoonam/"><strong>Changjoo Nam</strong></a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
@@ -32,8 +32,8 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
-    <h2 style="margin: 0; color: #8B4513;">News</h2>
+    <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
+    <h2 style="margin: 0; color: #000000;">News</h2>
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
@@ -59,8 +59,8 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <div style="width: 6px; height: 28px; background-color: #8B7355; margin-right: 1rem;"></div>
-    <h2 style="margin: 0; color: #8B4513;">Contacts</h2>
+    <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
+    <h2 style="margin: 0; color: #000000;">Contacts</h2>
   </div>
   <div>
     <p style="margin-bottom: 0.5rem;">✉ joonkyung [at] tamu [dot] com</p>
