@@ -1,4 +1,4 @@
----https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en
+---
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
