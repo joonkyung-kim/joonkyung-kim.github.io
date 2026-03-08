@@ -31,22 +31,25 @@ redirect_from:
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Aug 2025]</span> Started my Ph.D. in Computer Science and Engineering at Texas A&M University
+      <span style="color: #444;">[Jan 2026]</span> Our paper is accepted to ACC 2026
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Aug 2025]</span> Our paper is accepted at CoRL 2025.
+      <span style="color: #444;">[Aug 2025]</span> I'm starting my Ph.D. in Computer Science and Engineering at Texas A&M University
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted at IEEE/RSJ IROS 2025.
+      <span style="color: #444;">[Aug 2025]</span> Our paper is accepted to CoRL 2025
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted at the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning.
+      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted to IEEE/RSJ IROS 2025
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jan 2025]</span> Our paper is accepted at IEEE ICRA 2025.
+      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted to the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning
+    </div>
+    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #444;">[Jan 2025]</span> Our paper is accepted to IEEE ICRA 2025
     </div>
     <div>
-      <span style="color: #444;">[Aug 2024 – Feb 2025]</span> Visiting Scholar at Carnegie Mellon University
+      <span style="color: #444;">[Aug 2024]</span> I'm starting a six-month visit as a Visiting Scholar at Carnegie Mellon University
     </div>
   </div>
 </div>
