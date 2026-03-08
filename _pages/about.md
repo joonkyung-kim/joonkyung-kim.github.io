@@ -27,7 +27,7 @@ redirect_from:
   <div style="padding-bottom: 0.2rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
     <h2 style="margin: 0; color: #000000;">News</h2>
   </div>
-  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.95em;">
+  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
       <span style="color: #444;">[Jan 2026]</span> Our paper is accepted to ACC 2026
     </div>
