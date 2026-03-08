@@ -12,8 +12,8 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <div style="width: 8px; height: 8px; background-color: #808080; border-radius: 50%; margin-right: 0.5rem;"></div>
-    <h2 style="margin: 0; color: #000000;">About Me</h2>
+    <div style="width: 8px; height: 8px; background-color: #000000; border-radius: 50%; margin-right: 0.5rem; flex-shrink: 0;"></div>
+    <h2 style="margin: 0; color: #000000; line-height: 1;">About Me</h2>
   </div>
   <div style="font-size: 0.95em;">
     <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/" style="text-decoration: none;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" style="text-decoration: none;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" style="text-decoration: none;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
@@ -26,8 +26,8 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <div style="width: 8px; height: 8px; background-color: #808080; border-radius: 50%; margin-right: 0.5rem;"></div>
-    <h2 style="margin: 0; color: #000000;">News</h2>
+    <div style="width: 8px; height: 8px; background-color: #000000; border-radius: 50%; margin-right: 0.5rem; flex-shrink: 0;"></div>
+    <h2 style="margin: 0; color: #000000; line-height: 1;">News</h2>
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.95em;">
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
@@ -56,8 +56,8 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <div style="width: 8px; height: 8px; background-color: #808080; border-radius: 50%; margin-right: 0.5rem;"></div>
-    <h2 style="margin: 0; color: #000000;">Contacts</h2>
+    <div style="width: 8px; height: 8px; background-color: #000000; border-radius: 50%; margin-right: 0.5rem; flex-shrink: 0;"></div>
+    <h2 style="margin: 0; color: #000000; line-height: 1;">Contacts</h2>
   </div>
   <div style="font-size: 0.95em;">
     <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope"></i> joonkyung [at] tamu [dot] com</p>
