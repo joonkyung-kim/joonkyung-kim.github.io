@@ -15,7 +15,7 @@ redirect_from:
     <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #000000;">About Me</h2>
   </div>
-  <div>
+  <div style="font-size: 0.9em;">
     <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/" style="text-decoration: none;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" style="text-decoration: none;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" style="text-decoration: none;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
     
     <p>Recently, my research has focused on safety in multi-agent robotic systems, including heterogeneous multi-robot teams and human–robot interaction. I am particularly interested in developing control-theoretic methods that enable robots with different dynamics and capabilities to safely interact and cooperate in shared environments. More broadly, I study expanded notions of robotics safety beyond physical constraints, including semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
@@ -59,7 +59,7 @@ redirect_from:
     <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
     <h2 style="margin: 0; color: #000000;">Contacts</h2>
   </div>
-  <div>
+  <div style="font-size: 0.9em;">
     <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope"></i> joonkyung [at] tamu [dot] com</p>
     <p style="margin-bottom: 0;"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/">LinkedIn</a></p>
   </div>
