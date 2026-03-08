@@ -1,5 +1,5 @@
 <div class="pub-card"
-  style="display: flex; margin-bottom: 0.8rem; background-color: #f5f5f5; padding: 1rem; border-radius: 4px;">
+  style="display: flex; margin-bottom: 0.8rem; background-color: #f5f5f5; padding: 1rem; border-radius: 4px; height: 120px; overflow: hidden;">
   <!-- Left: Thumbnail -->
   <div style="flex: 0 0 150px; margin-right: 1rem;">
     <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}"
@@ -26,7 +26,7 @@
     {% if post.buttons %}
     <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
       {% for btn in post.buttons %}
-      <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.8rem; text-decoration: none;">
+      <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.5rem; text-decoration: none;">
         {% if btn.type == "paper" %}<i class="fas fa-file-pdf"></i> Paper{% endif %}
         {% if btn.type == "video" %}<i class="fas fa-video"></i> Video{% endif %}
         {% if btn.type == "code" %}<i class="fas fa-code"></i> Code{% endif %}
