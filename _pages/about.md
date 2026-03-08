@@ -12,7 +12,7 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
+    <div style="width: 8px; height: 8px; background-color: #808080; border-radius: 50%; margin-right: 0.5rem;"></div>
     <h2 style="margin: 0; color: #000000;">About Me</h2>
   </div>
   <div style="font-size: 0.9em;">
@@ -26,7 +26,7 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
+    <div style="width: 8px; height: 8px; background-color: #808080; border-radius: 50%; margin-right: 0.5rem;"></div>
     <h2 style="margin: 0; color: #000000;">News</h2>
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
@@ -56,7 +56,7 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="display: flex; align-items: center; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <div style="width: 6px; height: 28px; background-color: #808080; margin-right: 1rem;"></div>
+    <div style="width: 8px; height: 8px; background-color: #808080; border-radius: 50%; margin-right: 0.5rem;"></div>
     <h2 style="margin: 0; color: #000000;">Contacts</h2>
   </div>
   <div style="font-size: 0.9em;">
