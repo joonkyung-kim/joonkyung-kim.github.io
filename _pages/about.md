@@ -17,14 +17,8 @@ redirect_from:
   </div>
   <div>
     <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/" style="text-decoration: underline;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" style="text-decoration: underline;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" style="text-decoration: underline;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
-
-    <p>Recently, I have been interested in multi-agent systems for robotics, including multi-robot systems with heterogeneous robots, human–robot interaction, and related safety issues. As robots continue to move from ideas seen in films into real world environments, I have become especially interested in the practical challenges of deploying robots in everyday life. I enjoy seeing these challenges gradually solved through research and hope to contribute to making robotic systems safer and more reliable for real world use.</p>
-
-    <!-- <p>Recently, I have been interested in research on multi-agent systems for robotics. My research interests include multi-robot systems with heterogeneous robots, human–robot interaction, and safety issues that arise from interactions among robots and humans.</p>
-
-    <p>As robotic technologies continue to advance and move from ideas seen in films into real world applications, I have become especially interested in the practical challenges that arise when robots are deployed in everyday environments. I enjoy seeing how these challenges are gradually addressed through research, and I find it meaningful to contribute to building robotic systems that are safer and more reliable for real world use.</p> -->
-
-    <!-- <p style="margin-bottom: 0;">If you would like to chat or connect, I'd be happy to hear from you!</p> -->
+    
+    <p>Recently, my research has focused on safety in multi-agent robotic systems, including heterogeneous multi-robot teams and human–robot interaction. I am particularly interested in developing control-theoretic methods that enable robots with different dynamics and capabilities to safely interact and cooperate in shared environments. More broadly, I study expanded notions of robotics safety beyond physical constraints, including semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
   </div>
 </div>
 
