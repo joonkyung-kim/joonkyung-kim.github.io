@@ -12,7 +12,7 @@ buttons:
   - type: paper
     url: https://www.arxiv.org/abs/2409.10332
   - type: video
-    url: https://youtu.be/5-W0MCVjBX8?feature=shared
+    url: https://www.youtube.com/watch?v=1aAJJ3KpN0E
 ---
 
 <!-- 
