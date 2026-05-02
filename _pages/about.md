@@ -60,8 +60,7 @@ redirect_from:
     <h2 style="margin: 0; color: #000000;">Contacts</h2>
   </div>
   <div style="font-size: 0.95em;">
-    <p style="margin-bottom: 0.5rem;"><i class="fas fa-envelope"></i> joonkyung [at] tamu [dot] com</p>
-    <p style="margin-bottom: 0;"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/">LinkedIn</a></p>
+    <p style="margin-bottom: 0;"><i class="fas fa-envelope"></i> joonkyung [at] tamu [dot] com</p>
   </div>
 </div>
 
