@@ -29,6 +29,9 @@ redirect_from:
   </div>
   <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
+      <span style="color: #444;">[Apr 2026]</span> Our paper is accepted to ICML 2026
+    </div>
+    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
       <span style="color: #444;">[Jan 2026]</span> Our paper is accepted to ACC 2026
     </div>
     <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">

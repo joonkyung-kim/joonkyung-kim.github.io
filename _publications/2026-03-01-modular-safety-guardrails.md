@@ -1,13 +1,13 @@
 ---
 title: "Modular Safety Guardrails Are Necessary for Foundation-Model-Enabled Robots in the Real World"
 collection: publications
-category: manuscripts
+category: conferences
 date: 2026-03-01
 permalink: /publication/modular-safety-guardrails
 header:
   teaser: /images/modular_safety_guardrail_overview.png
 authors: <u>Joonkyung Kim</u><sup>+</sup>, Wenxi Chen<sup>+</sup>, Davood Soleymanzadeh<sup>+</sup>, Yi Ding, Xiangbo Gao, Zhengzhong Tu, Ruqi Zhang, Fan Fei, Sushant Veer, Yiwei Lyu<sup>*</sup>, Minghui Zheng<sup>*</sup>, and Yan Gu<sup>*</sup>
-venue: Preprint, 2026
+venue: International Conference on Machine Learning (ICML), 2026
 buttons:
   - type: paper
     url: https://arxiv.org/pdf/2602.04056
