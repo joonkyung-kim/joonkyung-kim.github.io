@@ -1,5 +1,5 @@
 ---
-title: "Modular Safety Guardrails Are Necessary for Foundation-Model-Enabled Robots in the Real World"
+title: "Position: Modular Safety Guardrails Are Necessary for Foundation-Model-Enabled Robots in the Real World"
 collection: publications
 category: conferences
 date: 2026-03-01
