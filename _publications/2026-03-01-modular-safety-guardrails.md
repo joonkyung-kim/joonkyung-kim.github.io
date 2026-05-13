@@ -7,7 +7,7 @@ permalink: /publication/modular-safety-guardrails
 header:
   teaser: /images/modular_safety_guardrail_overview.png
 authors: <u>Joonkyung Kim</u><sup>+</sup>, Wenxi Chen<sup>+</sup>, Davood Soleymanzadeh<sup>+</sup>, Yi Ding, Xiangbo Gao, Zhengzhong Tu, Ruqi Zhang, Fan Fei, Sushant Veer, Yiwei Lyu<sup>*</sup>, Minghui Zheng<sup>*</sup>, and Yan Gu<sup>*</sup>
-venue: International Conference on Machine Learning (ICML), 2026
+venue: International Conference on Machine Learning (ICML) Position Track, 2026
 buttons:
   - type: paper
     url: https://arxiv.org/pdf/2602.04056
