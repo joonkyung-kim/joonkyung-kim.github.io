@@ -25,12 +25,19 @@ redirect_from:
     </div>
 
     <!-- Contact row -->
-    <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: 0.95em;">
-      <a href="mailto:joonkyung@tamu.edu" style="text-decoration: none; color: #444;" title="Email"><i class="fas fa-envelope"></i> Email</a>
-      <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="text-decoration: none; color: #444;" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
-      <a href="https://github.com/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" style="text-decoration: none; color: #444;" title="CV"><i class="fas fa-file-pdf"></i> CV</a>
+    <style>
+      .contact-row a:hover {
+        text-decoration: underline !important;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+    </style>
+    <div class="contact-row" style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: 0.95em;">
+      <a href="mailto:joonkyung@tamu.edu" style="text-decoration: none; color: #444;" title="Email"><i class="fas fa-envelope"></i> joonkyung [at] tamu.edu</a>
+      <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="text-decoration: none; color: #444;" title="Google Scholar"><i class="ai ai-google-scholar" style="color: #444;"></i> Scholar</a>
+      <a href="https://github.com/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="GitHub"><i class="fab fa-github" style="color: #444;"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="LinkedIn"><i class="fab fa-linkedin" style="color: #444;"></i> LinkedIn</a>
+      <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" style="text-decoration: none; color: #444;" title="CV"><i class="fas fa-file-pdf" style="color: #444;"></i> CV</a>
     </div>
   </div>
 </div>
