@@ -11,49 +11,51 @@ redirect_from:
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
 <div style="margin: 2rem 0;">
-  <div style="padding-bottom: 0.2rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <h2 style="margin: 0; color: #000000;">About Me</h2>
-  </div>
   <div style="font-size: 0.95em;">
-    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://www.cs.cmu.edu/~yiweilyu/" style="text-decoration: none;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" style="text-decoration: none;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" style="text-decoration: none;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
-    
-    <p>Recently, my research has focused on safety in multi-agent robotic systems, including heterogeneous multi-robot teams and human–robot interaction. I am particularly interested in developing control-theoretic methods that enable robots with different dynamics and capabilities to safely interact and cooperate in shared environments. More broadly, I study expanded notions of robotics safety beyond physical constraints, including semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
+    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://yiweilyu-tamu.github.io/homepage/" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
-    <p style="margin-bottom: 0;"><i class="fas fa-envelope"></i> joonkyung [at] tamu [dot] com</p>
+    <p>I work on <strong>safety in multi-agent robotic systems</strong> — developing control-theoretic methods that enable heterogeneous robots and humans to safely interact and cooperate in shared environments. More broadly, I study expanded notions of robotics safety beyond physical constraints, including semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
+
+    <!-- Research Interests -->
+    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0;">
+      {% assign interests = "Multi-Robot Systems|Safety Control|Safe AI for Robotics|Human-Robot Interaction" | split: "|" %}
+      {% for interest in interests %}
+        <span style="background-color: #eef2f7; color: #2c3e50; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8em; font-weight: 500; border: 1px solid #d8dee6;">{{ interest }}</span>
+      {% endfor %}
+    </div>
+
+    <!-- Contact row -->
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: 0.95em;">
+      <a href="mailto:joonkyung@tamu.edu" style="text-decoration: none; color: #444;" title="Email"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="text-decoration: none; color: #444;" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://github.com/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" style="text-decoration: none; color: #444;" title="CV"><i class="fas fa-file-pdf"></i> CV</a>
+    </div>
   </div>
 </div>
-
-<!-- **Research Interests**: Multi-Robot/Agent Systems, Safety Control, Navigation, Safe AI for Robotics -->
 
 <div style="margin: 2rem 0;">
   <div style="padding-bottom: 0.2rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
     <h2 style="margin: 0; color: #000000;">News</h2>
   </div>
-  <div style="background-color: #f5f5f5; padding: 1.5rem; border-radius: 4px; font-size: 0.9em;">
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Apr 2026]</span> Our paper is accepted to ICML 2026 position track!
-    </div>
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jan 2026]</span> Our paper is accepted to ACC 2026!
-    </div>
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Aug 2025]</span> I'm starting my Ph.D. in Computer Science and Engineering at Texas A&M University!
-    </div>
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Aug 2025]</span> Our paper is accepted to CoRL 2025!
-    </div>
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted to IEEE/RSJ IROS 2025!
-    </div>
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jun 2025]</span> Our paper is accepted to the RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning!
-    </div>
-    <div style="padding-bottom: 0.3rem; margin-bottom: 0.3rem; border-bottom: 1px solid #ddd;">
-      <span style="color: #444;">[Jan 2025]</span> Our paper is accepted to IEEE ICRA 2025!
-    </div>
-    <div>
-      <span style="color: #444;">[Aug 2024]</span> I'm starting a six-month visit as a Visiting Scholar at Carnegie Mellon University!
-    </div>
+  <div style="font-size: 0.95em; max-height: 360px; overflow-y: auto; padding-right: 0.5rem;">
+    {% assign news = site.data.news | sort: 'date' | reverse %}
+    {% for item in news %}
+      {% case item.tag %}
+        {% when 'paper' %}{% assign tag_bg = '#1f6feb' %}{% assign tag_label = 'PAPER' %}
+        {% when 'workshop' %}{% assign tag_bg = '#8957e5' %}{% assign tag_label = 'WORKSHOP' %}
+        {% when 'talk' %}{% assign tag_bg = '#2da44e' %}{% assign tag_label = 'TALK' %}
+        {% when 'award' %}{% assign tag_bg = '#d29922' %}{% assign tag_label = 'AWARD' %}
+        {% when 'milestone' %}{% assign tag_bg = '#6e7681' %}{% assign tag_label = 'MILESTONE' %}
+        {% else %}{% assign tag_bg = '#6e7681' %}{% assign tag_label = item.tag | upcase %}
+      {% endcase %}
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin-bottom: 0.4rem;">
+        <span style="color: #555; min-width: 75px;">{{ item.date | date: "%b %Y" }}</span>
+        <span style="background-color: {{ tag_bg }}; color: #fff; padding: 0.1rem 0.45rem; border-radius: 3px; font-size: 0.7em; font-weight: 700; letter-spacing: 0.03em;">{{ tag_label }}</span>
+        <span style="flex: 1; min-width: 200px;">{{ item.text }}</span>
+      </div>
+    {% endfor %}
   </div>
 </div>
 

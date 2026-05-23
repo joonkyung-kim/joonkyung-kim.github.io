@@ -1,0 +1,36 @@
+# News entries for the About page.
+# Tag options: paper, workshop, talk, award, milestone
+# Sorted automatically by date (newest first) — order here doesn't matter.
+# Wrap key venue/institution names in <strong>...</strong> to highlight them.
+
+- date: 2026-04-01
+  tag: paper
+  text: "Our paper is accepted to <strong>ICML 2026 position track</strong>!"
+
+- date: 2026-01-01
+  tag: paper
+  text: "Our paper is accepted to <strong>ACC 2026</strong>!"
+
+- date: 2025-08-15
+  tag: milestone
+  text: "I'm starting my Ph.D. in Computer Science and Engineering at <strong>Texas A&amp;M University</strong>!"
+
+- date: 2025-08-01
+  tag: paper
+  text: "Our paper is accepted to <strong>CoRL 2025</strong>!"
+
+- date: 2025-06-15
+  tag: paper
+  text: "Our paper is accepted to <strong>IEEE/RSJ IROS 2025</strong>!"
+
+- date: 2025-06-01
+  tag: workshop
+  text: "Our paper is accepted to the <strong>RSS 2025 Workshop on Large Foundation Models for Interactive Robot Learning</strong>!"
+
+- date: 2025-01-01
+  tag: paper
+  text: "Our paper is accepted to <strong>IEEE ICRA 2025</strong>!"
+
+- date: 2024-08-01
+  tag: milestone
+  text: "I'm starting a six-month visit as a Visiting Scholar at <strong>Carnegie Mellon University</strong>!"

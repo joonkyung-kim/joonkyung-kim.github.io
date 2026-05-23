@@ -24,14 +24,15 @@
     {% endif %}
 
     {% if post.buttons %}
-    <p style="font-size: 0.9em; margin-top: 0.2rem; margin-bottom: 0;">
+    <p style="font-size: 0.9em; margin-top: 0.4rem; margin-bottom: 0; display: flex; flex-wrap: wrap; gap: 0.4rem;">
       {% for btn in post.buttons %}
-      <a href="{{ btn.url }}" target="_blank" style="margin-right: 0.5rem; text-decoration: none;">
+      <a href="{{ btn.url }}" target="_blank"
+         style="display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.2rem 0.6rem; background-color: #ffffff; color: #324aa8; border: 1px solid #324aa8; border-radius: 4px; font-size: 0.85em; font-weight: 500; text-decoration: none;">
         {% if btn.type == "paper" %}<i class="fas fa-file-pdf"></i> Paper{% endif %}
         {% if btn.type == "video" %}<i class="fas fa-video"></i> Video{% endif %}
         {% if btn.type == "code" %}<i class="fas fa-code"></i> Code{% endif %}
         {% if btn.type == "website" %}<i class="fas fa-globe"></i> Website{% endif %}
-        {% if btn.type == "presentation" %}<i class="fas fa-presentation"></i> Presentation{% endif %}
+        {% if btn.type == "presentation" %}<i class="fas fa-chalkboard-teacher"></i> Presentation{% endif %}
       </a>
       {% endfor %}
     </p>

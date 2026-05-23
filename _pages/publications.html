@@ -8,56 +8,46 @@ author_profile: true
 {% include base_path %}
 
 <!-- 🔗 Google Scholar 소개 -->
-<div style="margin-bottom: 2rem;">
-  <p>
+<div style="margin-bottom: 0.75rem;">
+  <p style="margin: 0;">
     You can also find my publications on
-    <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank">
+    <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">
       <i class="ai ai-google-scholar-square" style="font-size: 1.2em;"></i> Google Scholar
     </a>.
   </p>
-  <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem;">
-    <strong>[P]</strong>: Preprints &nbsp;&nbsp;|&nbsp;&nbsp; <strong>[C]</strong>: Conferences &nbsp;&nbsp;|&nbsp;&nbsp; <strong>[J]</strong>: Journals
-  </p>
 </div>
 
+{% assign category_order = "conferences,journals,manuscripts" | split: "," %}
 
-<!-- 📚 All Publications (Chronological Order with Category Numbering) -->
-{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+<!-- Jump-to navigation -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem;">
+  <span style="color: #555; font-size: 0.9em;">Jump to:</span>
+  {% for category in category_order %}
+    {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
+    {% if cat_pubs.size > 0 %}
+      <a href="#{{ category }}" style="background-color: #eef2f7; color: #2c3e50; padding: 0.2rem 0.7rem; border-radius: 4px; font-size: 0.85em; font-weight: 500; border: 1px solid #d8dee6; text-decoration: none;">{{ site.publication_category[category].title }} ({{ cat_pubs.size }})</a>
+    {% endif %}
+  {% endfor %}
+</div>
 
-<!-- Count publications by category -->
-{% assign preprint_count = 0 %}
-{% assign conference_count = 0 %}
-{% assign journal_count = 0 %}
+{% for category in category_order %}
+  {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
+  {% if cat_pubs.size > 0 %}
+    <!-- Category header -->
+    <div id="{{ category }}" style="margin: 2rem 0 1rem 0; scroll-margin-top: 1rem;">
+      <div style="padding-bottom: 0.2rem; border-bottom: 2px solid #ddd;">
+        <h2 style="margin: 0; color: #000000;">{{ site.publication_category[category].title }}</h2>
+      </div>
+    </div>
 
-{% for post in sorted_publications %}
-  {% if post.category == 'manuscripts' %}
-    {% assign preprint_count = preprint_count | plus: 1 %}
-  {% elsif post.category == 'conferences' %}
-    {% assign conference_count = conference_count | plus: 1 %}
-  {% elsif post.category == 'journals' %}
-    {% assign journal_count = journal_count | plus: 1 %}
+    {% assign last_year = "" %}
+    {% for post in cat_pubs %}
+      {% assign this_year = post.date | date: "%Y" %}
+      {% if this_year != last_year %}
+        <h3 style="margin: 1.2rem 0 0.6rem 0; color: #555; font-size: 1.05em; font-weight: 600;">{{ this_year }}</h3>
+        {% assign last_year = this_year %}
+      {% endif %}
+      {% include custom-publication.html %}
+    {% endfor %}
   {% endif %}
-{% endfor %}
-
-<!-- Display publications with numbering -->
-{% assign current_preprint = preprint_count %}
-{% assign current_conference = conference_count %}
-{% assign current_journal = journal_count %}
-
-{% for post in sorted_publications %}
-  {% if post.category == 'manuscripts' %}
-    {% assign pub_number = current_preprint %}
-    {% assign pub_prefix = 'P' %}
-    {% assign current_preprint = current_preprint | minus: 1 %}
-  {% elsif post.category == 'conferences' %}
-    {% assign pub_number = current_conference %}
-    {% assign pub_prefix = 'C' %}
-    {% assign current_conference = current_conference | minus: 1 %}
-  {% elsif post.category == 'journals' %}
-    {% assign pub_number = current_journal %}
-    {% assign pub_prefix = 'J' %}
-    {% assign current_journal = current_journal | minus: 1 %}
-  {% endif %}
-
-  {% include custom-publication.html number=pub_number prefix=pub_prefix %}
 {% endfor %}
