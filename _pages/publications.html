@@ -7,11 +7,24 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .pub-button:hover,
+  .jump-chip:hover {
+    background-color: #324aa8 !important;
+    color: #ffffff !important;
+    border-color: #324aa8 !important;
+  }
+  .inline-link:hover {
+    color: #1e2f6e !important;
+    text-decoration-style: solid !important;
+  }
+</style>
+
 <!-- 🔗 Google Scholar 소개 -->
 <div style="margin-bottom: 0.75rem;">
   <p style="margin: 0;">
     You can also find my publications on
-    <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">
+    <a class="inline-link" href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">
       <i class="ai ai-google-scholar-square" style="font-size: 1.2em;"></i> Google Scholar
     </a>.
   </p>
@@ -25,7 +38,7 @@ author_profile: true
   {% for category in category_order %}
     {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
     {% if cat_pubs.size > 0 %}
-      <a href="#{{ category }}" style="background-color: #eef2f7; color: #2c3e50; padding: 0.2rem 0.7rem; border-radius: 4px; font-size: 0.85em; font-weight: 500; border: 1px solid #d8dee6; text-decoration: none;">{{ site.publication_category[category].title }} ({{ cat_pubs.size }})</a>
+      <a class="jump-chip" href="#{{ category }}" style="background-color: #eef2f7; color: #2c3e50; padding: 0.2rem 0.7rem; border-radius: 4px; font-size: 0.85em; font-weight: 500; border: 1px solid #d8dee6; text-decoration: none; transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;">{{ site.publication_category[category].title }} ({{ cat_pubs.size }})</a>
     {% endif %}
   {% endfor %}
 </div>

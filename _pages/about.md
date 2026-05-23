@@ -12,7 +12,7 @@ redirect_from:
 
 <div style="margin: 2rem 0;">
   <div style="font-size: 0.95em;">
-    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://yiweilyu-tamu.github.io/homepage/" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
+    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://yiweilyu-tamu.github.io/homepage/" class="inline-link" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" class="inline-link" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" class="inline-link" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
     <p>I work on <strong>safety in multi-agent robotic systems</strong> — developing control-theoretic methods that enable heterogeneous robots and humans to safely interact and cooperate in shared environments. More broadly, I study expanded notions of robotics safety beyond physical constraints, including semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
 
@@ -30,6 +30,10 @@ redirect_from:
         text-decoration: underline !important;
         text-decoration-thickness: 1px;
         text-underline-offset: 3px;
+      }
+      .inline-link:hover {
+        color: #1e2f6e !important;
+        text-decoration-style: solid !important;
       }
     </style>
     <div class="contact-row" style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: 0.95em;">

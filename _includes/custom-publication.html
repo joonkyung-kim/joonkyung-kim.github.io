@@ -26,8 +26,8 @@
     {% if post.buttons %}
     <p style="font-size: 0.9em; margin-top: 0.4rem; margin-bottom: 0; display: flex; flex-wrap: wrap; gap: 0.4rem;">
       {% for btn in post.buttons %}
-      <a href="{{ btn.url }}" target="_blank"
-         style="display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.2rem 0.6rem; background-color: #ffffff; color: #324aa8; border: 1px solid #324aa8; border-radius: 4px; font-size: 0.85em; font-weight: 500; text-decoration: none;">
+      <a class="pub-button" href="{{ btn.url }}" target="_blank"
+         style="display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.2rem 0.6rem; background-color: #ffffff; color: #324aa8; border: 1px solid #324aa8; border-radius: 4px; font-size: 0.85em; font-weight: 500; text-decoration: none; transition: background-color 0.15s ease, color 0.15s ease;">
         {% if btn.type == "paper" %}<i class="fas fa-file-pdf"></i> Paper{% endif %}
         {% if btn.type == "video" %}<i class="fas fa-video"></i> Video{% endif %}
         {% if btn.type == "code" %}<i class="fas fa-code"></i> Code{% endif %}
