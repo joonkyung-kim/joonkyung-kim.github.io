@@ -1,0 +1,443 @@
+/* ==========================================================================
+   Custom site styles
+   Single source of truth for colors, typography, and page components.
+   Keep new styling here instead of inline `style="..."` attributes.
+   ========================================================================== */
+
+:root {
+  /* Accent — one color only, used for links and buttons */
+  --accent: #324aa8;
+  --accent-hover: #22336f;
+
+  /* Text — three steps, nothing in between */
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --text-faint: #8a8a8a;
+
+  /* Hairlines — --rule separates items, --rule-strong divides sections */
+  --rule: #d5d5d5;
+  --rule-strong: #ababab;
+
+  /* Faint accent tint — the same blue as --accent, heavily diluted */
+  --hover-bg: #f4f6fb;
+  --accent-soft: #9aa8d4;
+
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Anchor jumps glide instead of teleporting — but respect reduced-motion */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Typography: serif headings, sans body
+   -------------------------------------------------------------------------- */
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.author__name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+/* Comfortable measure — ~68 characters per line */
+.page__content {
+  max-width: 68ch;
+
+  p, li, dl {
+    line-height: 1.65;
+  }
+
+  /* Theme adds a large gap under h2; the section rule handles it now */
+  h2 {
+    padding-bottom: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Masthead — name leads, menu recedes
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  /* The theme fades the header in on every page load; it reads as a flicker
+     when moving between pages. */
+  animation: none;
+
+  /* The theme's #f2f3f3 was the faintest line on the site, yet it is the one
+     separating a fixed header from content scrolling underneath it. */
+  border-bottom-color: var(--rule);
+
+  &__inner-wrap {
+    /* The theme hard-codes the old system stack here, which would leave the
+       header as the only part of the site not set in Inter. */
+    font-family: var(--font-sans);
+  }
+}
+
+.greedy-nav a {
+  color: var(--text-muted);
+  font-size: 0.95em;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+/* Site title: same serif voice as the page headings */
+.masthead__menu-item--lg a {
+  font-family: var(--font-serif);
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+/* Current section */
+.masthead__menu-item.is-active a {
+  color: var(--text);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+/* --------------------------------------------------------------------------
+   Author profile
+   -------------------------------------------------------------------------- */
+
+.author__avatar img {
+  /* The source photo is slightly taller than wide, so a plain border-radius
+     of 50% renders an ellipse rather than a circle. */
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-color: var(--rule);
+}
+
+/* --------------------------------------------------------------------------
+   Links
+   -------------------------------------------------------------------------- */
+
+/* Qualified with `a` on purpose: the theme's `.page__content a` sets
+   `text-decoration: none` and would otherwise out-rank a bare `.inline-link`. */
+a.inline-link {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-style 0.15s ease;
+
+  &:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+    text-decoration-style: solid;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Section heading with hairline rule
+   -------------------------------------------------------------------------- */
+
+.section-head {
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule-strong);
+  scroll-margin-top: 1rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.3em; // stays clearly below the page h1 (1.563em)
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Chips — research interests, jump-to nav
+   -------------------------------------------------------------------------- */
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1rem 0;
+}
+
+.chip-row__label {
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+/* Plain label — deliberately grey so it does not read as clickable */
+.chip {
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-size: 0.82em;
+  font-weight: 500;
+}
+
+/* Navigable variant: blue means clickable, consistently across the site */
+.chip--link {
+  border-color: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar contact links
+   -------------------------------------------------------------------------- */
+
+/* The theme sets `color: inherit`, which makes these read as plain black
+   text with no hover response — indistinguishable from the labels above. */
+.author__urls a {
+  color: var(--text-muted);
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+/* Click-to-copy email: swaps to a confirmation label for a moment */
+.copy-email {
+  cursor: pointer;
+
+  &.is-copied {
+    color: var(--accent);
+
+    i {
+      color: var(--accent);
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   News list
+   -------------------------------------------------------------------------- */
+
+.news-list {
+  font-size: 0.95em;
+}
+
+/* Older entries collapse behind a disclosure rather than a fixed-height
+   scroll box, which clipped silently as the list grew. */
+.news-more {
+  summary {
+    margin-top: 0.7rem;
+    color: var(--accent);
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  .news-item:first-of-type {
+    margin-top: 0.7rem;
+  }
+}
+
+/* Real text nodes, toggled by the open state — no generated content, so
+   screen readers announce the label correctly. */
+.news-more__close {
+  display: none;
+}
+
+.news-more[open] {
+  .news-more__open {
+    display: none;
+  }
+
+  .news-more__close {
+    display: inline;
+  }
+}
+
+.news-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin-bottom: 0.55rem;
+}
+
+.news-item__date {
+  min-width: 72px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tinted rather than saturated: five loud badges was the original problem.
+   Note none of these use --accent — on this site blue means "clickable",
+   and these tags are labels. The word itself still carries the meaning, so
+   the color is redundant encoding and safe for color-blind readers. */
+.news-item__tag {
+  padding: 0.08rem 0.45rem;
+  border-radius: 3px;
+  background-color: #f0f1f2;
+  color: #55595e;
+  font-size: 0.75em; // uppercase + letterspaced, so don't go below ~12px
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+/* PAPER is 5 of 8 entries, so it stays the quietest — otherwise the column
+   turns into a wall of the same badge. */
+.news-item__tag--paper {
+  background-color: #eef1f8;
+  color: #3c4a6b;
+}
+
+.news-item__tag--workshop {
+  background-color: #f3eefa;
+  color: #5b4380;
+}
+
+.news-item__tag--talk {
+  background-color: #eaf4ee;
+  color: #2f5d40;
+}
+
+.news-item__tag--award {
+  background-color: #fbf3e3;
+  color: #7a5a17;
+}
+
+.news-item__tag--milestone {
+  background-color: #f5f0ec;
+  color: #6b5546;
+}
+
+.news-item__text {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* --------------------------------------------------------------------------
+   Publication list — no card chrome, hairline separators only
+   -------------------------------------------------------------------------- */
+
+.pub-year {
+  margin: 1.75rem 0 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+}
+
+.pub-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.25rem;
+  /* Horizontal padding + matching negative margin: the hover tint gets
+     breathing room without shifting the text out of alignment. */
+  padding: 1.1rem 0.75rem;
+  margin: 0 -0.75rem;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--hover-bg);
+  }
+}
+
+.pub-item__thumb {
+  flex: 0 0 150px;
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+  }
+}
+
+.pub-item__body {
+  flex: 1;
+  min-width: 220px;
+}
+
+.pub-item__title {
+  margin: 0 0 0.3rem;
+  font-size: 1.15em; // the title must outrank the author/venue lines (0.9em)
+  line-height: 1.3;
+}
+
+.pub-item__index {
+  margin-right: 0.4rem;
+  color: var(--text-faint);
+  font-weight: 400;
+}
+
+.pub-item__authors,
+.pub-item__venue {
+  margin: 0 0 0.15rem;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.pub-item__authors {
+  color: var(--text-muted);
+}
+
+.pub-item__venue {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.pub-item__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.55rem 0 0;
+}
+
+/* The primary call to action on the site — it earns the accent color */
+.pub-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--accent-soft);
+  border-radius: 4px;
+  color: var(--accent);
+  font-size: 0.82em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+}

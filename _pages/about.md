@@ -10,64 +10,39 @@ redirect_from:
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-<div style="margin: 2rem 0;">
-  <div style="font-size: 0.95em;">
-    <p style="margin-top: 0;">I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a href="https://yiweilyu-tamu.github.io/homepage/" class="inline-link" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a href="https://airobotics.sogang.ac.kr/" class="inline-link" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">AI Robotics Lab</a> under Prof. <a href="https://sites.google.com/site/changjoonam/" class="inline-link" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
+<p>I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a class="inline-link" href="https://yiweilyu-tamu.github.io/homepage/">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a class="inline-link" href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a class="inline-link" href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
 
-    <p>I work on <strong>safety in robotic systems</strong>, particularly in real-world deployment and multi-agent settings. My recent research focuses on developing generalizable safety representations that bridge the gap between control-theoretic safety methods with strong guarantees and real-world robotic systems operating under uncertainty and distribution shifts. More broadly, I study how robotics safety should extend beyond physical constraints to include semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
+<p>I work on <strong>safety in robotic systems</strong>, particularly in real-world deployment and multi-agent settings. My recent research focuses on developing generalizable safety representations that bridge the gap between control-theoretic safety methods with strong guarantees and real-world robotic systems operating under uncertainty and distribution shifts. More broadly, I study how robotics safety should extend beyond physical constraints to include semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
 
-    <!-- Research Interests -->
-    <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0;">
-      {% assign interests = "Multi-Robot Systems|Safety Control|AI-Enabled Robot Safety|Multi-Agent Interaction" | split: "|" %}
-      {% for interest in interests %}
-        <span style="background-color: #eef2f7; color: #2c3e50; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8em; font-weight: 500; border: 1px solid #d8dee6;">{{ interest }}</span>
-      {% endfor %}
-    </div>
-
-    <!-- Contact row -->
-    <style>
-      .contact-row a:hover {
-        text-decoration: underline !important;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 3px;
-      }
-      .inline-link:hover {
-        color: #1e2f6e !important;
-        text-decoration-style: solid !important;
-      }
-    </style>
-    <div class="contact-row" style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; font-size: 0.95em;">
-      <a href="mailto:joonkyung@tamu.edu" style="text-decoration: none; color: #444;" title="Email"><i class="fas fa-envelope"></i> joonkyung [at] tamu.edu</a>
-      <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="text-decoration: none; color: #444;" title="Google Scholar"><i class="ai ai-google-scholar" style="color: #444;"></i> Scholar</a>
-      <a href="https://github.com/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="GitHub"><i class="fab fa-github" style="color: #444;"></i> GitHub</a>
-      <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" style="text-decoration: none; color: #444;" title="LinkedIn"><i class="fab fa-linkedin" style="color: #444;"></i> LinkedIn</a>
-      <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" style="text-decoration: none; color: #444;" title="CV"><i class="fas fa-file-pdf" style="color: #444;"></i> CV</a>
-    </div>
-  </div>
+<!-- Research Interests -->
+<div class="chip-row">
+  {% assign interests = "Multi-Robot Systems|Safety Control|AI-Enabled Robot Safety|Multi-Agent Interaction" | split: "|" %}
+  {% for interest in interests %}
+    <span class="chip">{{ interest }}</span>
+  {% endfor %}
 </div>
 
-<div style="margin: 2rem 0;">
-  <div style="padding-bottom: 0.2rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd;">
-    <h2 style="margin: 0; color: #000000;">News</h2>
-  </div>
-  <div style="font-size: 0.95em; max-height: 360px; overflow-y: auto; padding-right: 0.5rem;">
-    {% assign news = site.data.news | sort: 'date' | reverse %}
-    {% for item in news %}
-      {% case item.tag %}
-        {% when 'paper' %}{% assign tag_bg = '#1f6feb' %}{% assign tag_label = 'PAPER' %}
-        {% when 'workshop' %}{% assign tag_bg = '#8957e5' %}{% assign tag_label = 'WORKSHOP' %}
-        {% when 'talk' %}{% assign tag_bg = '#2da44e' %}{% assign tag_label = 'TALK' %}
-        {% when 'award' %}{% assign tag_bg = '#d29922' %}{% assign tag_label = 'AWARD' %}
-        {% when 'milestone' %}{% assign tag_bg = '#6e7681' %}{% assign tag_label = 'MILESTONE' %}
-        {% else %}{% assign tag_bg = '#6e7681' %}{% assign tag_label = item.tag | upcase %}
-      {% endcase %}
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin-bottom: 0.4rem;">
-        <span style="color: #555; min-width: 75px;">{{ item.date | date: "%b %Y" }}</span>
-        <span style="background-color: {{ tag_bg }}; color: #fff; padding: 0.1rem 0.45rem; border-radius: 3px; font-size: 0.7em; font-weight: 700; letter-spacing: 0.03em;">{{ tag_label }}</span>
-        <span style="flex: 1; min-width: 200px;">{{ item.text }}</span>
-      </div>
-    {% endfor %}
-  </div>
+<div class="section-head">
+  <h2>News</h2>
+</div>
+
+{% assign news = site.data.news | sort: 'date' | reverse %}
+<div class="news-list">
+  {% for item in news limit: 5 %}
+    {% include news-item.html item=item %}
+  {% endfor %}
+
+  {% if news.size > 5 %}
+    <details class="news-more">
+      <summary>
+        <span class="news-more__open">Show all ({{ news.size }})</span>
+        <span class="news-more__close">Show less</span>
+      </summary>
+      {% for item in news offset: 5 %}
+        {% include news-item.html item=item %}
+      {% endfor %}
+    </details>
+  {% endif %}
 </div>
 
 <!-- A data-driven personal website

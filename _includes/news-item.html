@@ -1,0 +1,5 @@
+<div class="news-item">
+  <span class="news-item__date">{{ include.item.date | date: "%b %Y" }}</span>
+  <span class="news-item__tag news-item__tag--{{ include.item.tag | downcase }}">{{ include.item.tag | upcase }}</span>
+  <span class="news-item__text">{{ include.item.text }}</span>
+</div>

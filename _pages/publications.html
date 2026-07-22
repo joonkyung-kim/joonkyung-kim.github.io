@@ -7,38 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-<style>
-  .pub-button:hover,
-  .jump-chip:hover {
-    background-color: #324aa8 !important;
-    color: #ffffff !important;
-    border-color: #324aa8 !important;
-  }
-  .inline-link:hover {
-    color: #1e2f6e !important;
-    text-decoration-style: solid !important;
-  }
-</style>
-
-<!-- 🔗 Google Scholar 소개 -->
-<div style="margin-bottom: 0.75rem;">
-  <p style="margin: 0;">
-    You can also find my publications on
-    <a class="inline-link" href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" style="color: #324aa8; text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.15s ease, text-decoration-style 0.15s ease;">
-      <i class="ai ai-google-scholar-square" style="font-size: 1.2em;"></i> Google Scholar
-    </a>.
-  </p>
-</div>
+<p>
+  You can also find my publications on
+  <a class="inline-link" href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank">
+    <i class="ai ai-google-scholar-square"></i> Google Scholar</a>.
+</p>
 
 {% assign category_order = "conferences,journals,manuscripts" | split: "," %}
 
 <!-- Jump-to navigation -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem;">
-  <span style="color: #555; font-size: 0.9em;">Jump to:</span>
+<div class="chip-row">
+  <span class="chip-row__label">Jump to</span>
   {% for category in category_order %}
     {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
     {% if cat_pubs.size > 0 %}
-      <a class="jump-chip" href="#{{ category }}" style="background-color: #eef2f7; color: #2c3e50; padding: 0.2rem 0.7rem; border-radius: 4px; font-size: 0.85em; font-weight: 500; border: 1px solid #d8dee6; text-decoration: none; transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;">{{ site.publication_category[category].title }} ({{ cat_pubs.size }})</a>
+      <a class="chip chip--link" href="#{{ category }}">{{ site.publication_category[category].title }} ({{ cat_pubs.size }})</a>
     {% endif %}
   {% endfor %}
 </div>
@@ -46,18 +29,15 @@ author_profile: true
 {% for category in category_order %}
   {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
   {% if cat_pubs.size > 0 %}
-    <!-- Category header -->
-    <div id="{{ category }}" style="margin: 2rem 0 1rem 0; scroll-margin-top: 1rem;">
-      <div style="padding-bottom: 0.2rem; border-bottom: 2px solid #ddd;">
-        <h2 style="margin: 0; color: #000000;">{{ site.publication_category[category].title }}</h2>
-      </div>
+    <div class="section-head" id="{{ category }}">
+      <h2>{{ site.publication_category[category].title }}</h2>
     </div>
 
     {% assign last_year = "" %}
     {% for post in cat_pubs %}
       {% assign this_year = post.date | date: "%Y" %}
       {% if this_year != last_year %}
-        <h3 style="margin: 1.2rem 0 0.6rem 0; color: #555; font-size: 1.05em; font-weight: 600;">{{ this_year }}</h3>
+        <p class="pub-year">{{ this_year }}</p>
         {% assign last_year = this_year %}
       {% endif %}
       {% include custom-publication.html %}

@@ -1,33 +1,30 @@
-<div class="pub-card"
-  style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 0.8rem; background-color: #f5f5f5; padding: 1rem; border-radius: 4px;">
+<div class="pub-item">
   <!-- Left: Thumbnail -->
-  <div style="flex: 0 0 150px; margin-right: 1rem; margin-bottom: 0.5rem;">
-    <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}"
-      style="max-width: 100%; border-radius: 6px;">
+  <div class="pub-item__thumb">
+    <img src="{{ post.header.teaser | default: '/images/default-thumbnail.png' }}" alt="{{ post.title }}">
   </div>
 
   <!-- Right: Content -->
-  <div style="flex: 1; min-width: 220px;">
-    <h3 style="margin-top: 0; margin-bottom: 0.1rem; font-size: 0.9em; color: #000000; font-weight: bold;">
+  <div class="pub-item__body">
+    <h3 class="pub-item__title">
       {% if include.prefix and include.number %}
-      <span style="margin-right: 0.5rem;">[{{ include.prefix }}{{ include.number }}]</span>
+      <span class="pub-item__index">[{{ include.prefix }}{{ include.number }}]</span>
       {% endif %}
       {{ post.title }}
     </h3>
 
     {% if post.authors %}
-    <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.9em;">{{ post.authors }}</p>
+    <p class="pub-item__authors">{{ post.authors }}</p>
     {% endif %}
 
     {% if post.venue %}
-    <p style="margin-bottom: 0.1rem; margin-top: 0; font-size: 0.9em;"><i>{{ post.venue }}</i></p>
+    <p class="pub-item__venue">{{ post.venue }}</p>
     {% endif %}
 
     {% if post.buttons %}
-    <p style="font-size: 0.9em; margin-top: 0.4rem; margin-bottom: 0; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+    <p class="pub-item__links">
       {% for btn in post.buttons %}
-      <a class="pub-button" href="{{ btn.url }}" target="_blank"
-         style="display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.2rem 0.6rem; background-color: #ffffff; color: #324aa8; border: 1px solid #324aa8; border-radius: 4px; font-size: 0.85em; font-weight: 500; text-decoration: none; transition: background-color 0.15s ease, color 0.15s ease;">
+      <a class="pub-button" href="{{ btn.url }}" target="_blank">
         {% if btn.type == "paper" %}<i class="fas fa-file-pdf"></i> Paper{% endif %}
         {% if btn.type == "video" %}<i class="fas fa-video"></i> Video{% endif %}
         {% if btn.type == "code" %}<i class="fas fa-code"></i> Code{% endif %}

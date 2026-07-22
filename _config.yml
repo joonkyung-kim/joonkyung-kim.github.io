@@ -24,18 +24,18 @@ author:
   avatar: "pittsburgh.JPG"
   name: "Joonkyung Kim"
   pronouns: "he/him" # example: "she/her"
-  bio: |
-    Ph.D. Student @ Texas A&M University  <br>
+  bio: "Ph.D. Student @ Texas A&M University"
   location: "College Station, TX, USA"
   employer: "Texas A&M University"
   uri: # URL
   email: "joonkyung@tamu.edu"
+  cv: "/files/Joonkyung_Kim_CV_recent.pdf" # custom field, rendered by _includes/author-profile.html
 
   # Academic websites
   arxiv: # URL - Update with the correct link to your profile
   googlescholar: "https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en"
   impactstory: # URL
-  orcid: "https://orcid.org/my-orcid?orcid=0000-0002-1351-2668"
+  orcid: "https://orcid.org/0000-0002-1351-2668" # public profile form, not the /my-orcid editing view
   semantic: # URL
   # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate: # URL
