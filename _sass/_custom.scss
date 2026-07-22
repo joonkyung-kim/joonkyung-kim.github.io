@@ -420,10 +420,11 @@ a.inline-link {
 .pub-year {
   margin: 1.75rem 0 0.5rem;
   font-family: var(--font-sans);
-  font-size: 0.78em;
+  font-size: 0.95em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: var(--text-faint);
+  /* --text-faint only reaches 3.5:1 on white, under the 4.5:1 minimum */
+  color: var(--text-muted);
 }
 
 .pub-item {
