@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Joonkyung Kim!"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -20,6 +20,15 @@ redirect_from:
   {% for interest in interests %}
     <span class="chip">{{ interest }}</span>
   {% endfor %}
+</div>
+
+<!-- Contact row -->
+<div class="contact-row">
+  <a class="copy-email" href="mailto:joonkyung@tamu.edu" data-email="joonkyung@tamu.edu" title="Click to copy"><i class="fas fa-envelope"></i> <span class="copy-email__label">joonkyung [at] tamu.edu</span></a>
+  <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
+  <a href="https://github.com/joonkyung-kim" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" title="CV"><i class="fas fa-file-pdf"></i> CV</a>
 </div>
 
 <div class="section-head">
