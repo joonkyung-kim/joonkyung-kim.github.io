@@ -390,6 +390,20 @@ a.inline-link {
   }
 }
 
+/* On phones the profile card stops at the bio. The about page still carries
+   the same links in its contact row, so nothing becomes unreachable there. */
+@media screen and (max-width: 767px) {
+  .author-card .author__urls-wrapper {
+    display: none;
+  }
+
+  /* Pages that opt in via `hide_profile_mobile` drop the profile entirely,
+     so the content starts at the top of a phone screen. */
+  .sidebar--hide-mobile {
+    display: none;
+  }
+}
+
 /* The theme sets `color: inherit`, which makes these read as plain black
    text with no hover response — indistinguishable from the labels above. */
 .author__urls a {
@@ -556,6 +570,12 @@ a.inline-link {
 .news-item__text {
   flex: 1;
   min-width: 200px;
+
+  /* Venue names are wrapped in <strong> in _data/news.yml; italicising them
+     here keeps the markup as-is while matching the about page's treatment. */
+  strong {
+    font-style: italic;
+  }
 }
 
 /* --------------------------------------------------------------------------

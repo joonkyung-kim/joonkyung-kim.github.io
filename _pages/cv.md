@@ -3,6 +3,7 @@ layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+hide_profile_mobile: true
 ---
 
 <p><em>Last update: May 2026</em></p>
