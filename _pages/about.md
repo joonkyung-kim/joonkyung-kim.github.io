@@ -10,25 +10,25 @@ redirect_from:
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-<p>I am a Ph.D. student in Computer Science and Engineering at Texas A&M University, advised by Prof. <a class="inline-link" href="https://yiweilyu-tamu.github.io/homepage/">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from Sogang University, where I worked at the <a class="inline-link" href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a class="inline-link" href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at Carnegie Mellon University.</p>
+<div class="card">
+  <p>I am a Ph.D. student in Computer Science and Engineering at <em>Texas A&M University</em>, advised by Prof. <a class="inline-link" href="https://yiweilyu-tamu.github.io/homepage/">Yiwei Lyu</a>. I received my B.S. and M.S. degrees in Electronic Engineering from <em>Sogang University</em>, where I worked at the <a class="inline-link" href="https://airobotics.sogang.ac.kr/">AI Robotics Lab</a> under Prof. <a class="inline-link" href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>. From Aug. 2024 to Feb. 2025, I was a Visiting Scholar at <em>Carnegie Mellon University</em>.</p>
 
-<p>I work on <strong>safety in robotic systems</strong>, particularly in real-world deployment and multi-agent settings. My recent research focuses on developing generalizable safety representations that bridge the gap between control-theoretic safety methods with strong guarantees and real-world robotic systems operating under uncertainty and distribution shifts. More broadly, I study how robotics safety should extend beyond physical constraints to include semantic, decision-level, and human-centered safety for AI-enabled robotic systems.</p>
+  <h3 class="card-subhead">Research Interests</h3>
 
-<!-- Research Interests -->
-<div class="chip-row">
+  <p>I work on <em>safety in robotic systems</em>, with a particular focus on real-world deployment and multi-agent settings. My recent research develops generalizable safety representations that bridge the gap between control-theoretic safety methods and robotic systems operating under uncertainty and distribution shifts. More broadly, I aim to extend robotic safety beyond physical constraint satisfaction to encompass semantic, decision-making, and human-centered aspects of safety.</p>
+
+  <!-- Research Interests -->
   {% assign interests = "Multi-Robot Systems|Safety Control|AI-Enabled Robot Safety|Multi-Agent Interaction" | split: "|" %}
-  {% for interest in interests %}
-    <span class="chip">{{ interest }}</span>
-  {% endfor %}
-</div>
+  <p class="interest-list">{{ interests | join: " · " }}</p>
 
-<!-- Contact row -->
-<div class="contact-row">
-  <a class="copy-email" href="mailto:joonkyung@tamu.edu" data-email="joonkyung@tamu.edu" title="Click to copy"><i class="fas fa-envelope"></i> <span class="copy-email__label">joonkyung [at] tamu.edu</span></a>
-  <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
-  <a href="https://github.com/joonkyung-kim" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-  <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" title="CV"><i class="fas fa-file-pdf"></i> CV</a>
+  <!-- Contact row -->
+  <div class="contact-row">
+    <a class="copy-email" href="mailto:joonkyung@tamu.edu" data-email="joonkyung@tamu.edu" title="Click to copy"><i class="fas fa-envelope"></i> <span class="copy-email__label">joonkyung [at] tamu.edu</span></a>
+    <a href="https://scholar.google.com/citations?user=_Bamlg4AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> <span>Scholar</span></a>
+    <a href="https://github.com/joonkyung-kim" target="_blank" title="GitHub"><i class="fab fa-github"></i> <span>GitHub</span></a>
+    <a href="https://www.linkedin.com/in/joonkyung-kim" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> <span>LinkedIn</span></a>
+    <a href="/files/Joonkyung_Kim_CV_recent.pdf" target="_blank" title="CV"><i class="fas fa-file-pdf"></i> <span>CV</span></a>
+  </div>
 </div>
 
 <div class="section-head">
@@ -36,7 +36,7 @@ redirect_from:
 </div>
 
 {% assign news = site.data.news | sort: 'date' | reverse %}
-<div class="news-list">
+<div class="news-list card">
   {% for item in news limit: 5 %}
     {% include news-item.html item=item %}
   {% endfor %}

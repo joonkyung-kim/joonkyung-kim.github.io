@@ -25,11 +25,11 @@
     <p class="pub-item__links">
       {% for btn in post.buttons %}
       <a class="pub-button" href="{{ btn.url }}" target="_blank">
-        {% if btn.type == "paper" %}<i class="fas fa-file-pdf"></i> Paper{% endif %}
-        {% if btn.type == "video" %}<i class="fas fa-video"></i> Video{% endif %}
-        {% if btn.type == "code" %}<i class="fas fa-code"></i> Code{% endif %}
-        {% if btn.type == "website" %}<i class="fas fa-globe"></i> Website{% endif %}
-        {% if btn.type == "presentation" %}<i class="fas fa-chalkboard-teacher"></i> Presentation{% endif %}
+        {% if btn.type == "paper" %}<i class="fas fa-file-pdf"></i> <span>Paper</span>{% endif %}
+        {% if btn.type == "video" %}<i class="fas fa-video"></i> <span>Video</span>{% endif %}
+        {% if btn.type == "code" %}<i class="fas fa-code"></i> <span>Code</span>{% endif %}
+        {% if btn.type == "website" %}<i class="fas fa-globe"></i> <span>Website</span>{% endif %}
+        {% if btn.type == "presentation" %}<i class="fas fa-chalkboard-teacher"></i> <span>Presentation</span>{% endif %}
       </a>
       {% endfor %}
     </p>

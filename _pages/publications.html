@@ -29,7 +29,7 @@ author_profile: true
 {% for category in category_order %}
   {% assign cat_pubs = site.publications | where: "category", category | sort: "date" | reverse %}
   {% if cat_pubs.size > 0 %}
-    <div class="section-head" id="{{ category }}">
+    <div class="section-head section-head--ruled" id="{{ category }}">
       <h2>{{ site.publication_category[category].title }}</h2>
     </div>
 
