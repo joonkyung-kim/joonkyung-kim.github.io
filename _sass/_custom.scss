@@ -183,6 +183,14 @@ h1, h2, h3, h4, h5, h6,
   @include card-surface;
   padding: 1.1rem 1rem 1.2rem;
 
+  /* The theme's `.sidebar .author__name` out-ranks the global serif rule,
+     leaving the name as the one heading still set in sans. */
+  .author__name {
+    font-family: var(--font-serif);
+    /* Sized to keep the full name on one line in the narrow sidebar. */
+    font-size: 1.02em;
+  }
+
   /* The theme sets `white-space: nowrap` on these; inside a card the long
      ones (location, employer) would run past the border and get clipped. */
   .author__urls li {
