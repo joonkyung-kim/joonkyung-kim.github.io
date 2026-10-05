@@ -3,13 +3,17 @@
 # Sorted automatically by date (newest first) — order here doesn't matter.
 # Wrap key venue/institution names in <strong>...</strong> to highlight them.
 
+- date: 2026-09-04
+  tag: award
+  text: "Our <a href=\"https://arxiv.org/abs/2604.13245\">paper</a> received the <strong>Best Paper Award</strong> at the <a class=\"no-underline\" href=\"https://sites.google.com/view/iros2026-2nd-wrwcmrc/home\"><strong>IROS 2026 RWCMRC-2 Workshop</strong></a>!"
+
 - date: 2026-04-01
   tag: paper
-  text: "Our paper is accepted to <strong>ICML 2026 position track</strong>!"
+  text: "Our <a href=\"https://openreview.net/forum?id=a4imO33mN1\">paper</a> is accepted to <strong>ICML 2026 position track</strong>!"
 
 - date: 2026-01-01
   tag: paper
-  text: "Our paper is accepted to <strong>ACC 2026</strong>!"
+  text: "Our <a href=\"https://arxiv.org/pdf/2603.04329\">paper</a> is accepted to <strong>ACC 2026</strong>!"
 
 - date: 2025-08-15
   tag: milestone
@@ -17,11 +21,11 @@
 
 - date: 2025-08-01
   tag: paper
-  text: "Our paper is accepted to <strong>CoRL 2025</strong>!"
+  text: "Our <a href=\"https://arxiv.org/abs/2506.03834\">paper</a> is accepted to <strong>CoRL 2025</strong>!"
 
 - date: 2025-06-15
   tag: paper
-  text: "Our paper is accepted to <strong>IEEE/RSJ IROS 2025</strong>!"
+  text: "Our <a href=\"https://ieeexplore.ieee.org/iel8/11245651/11245652/11245826.pdf\">paper</a> is accepted to <strong>IEEE/RSJ IROS 2025</strong>!"
 
 - date: 2025-06-01
   tag: workshop
@@ -29,7 +33,7 @@
 
 - date: 2025-01-01
   tag: paper
-  text: "Our paper is accepted to <strong>IEEE ICRA 2025</strong>!"
+  text: "Our <a href=\"https://www.arxiv.org/abs/2409.10332\">paper</a> is accepted to <strong>IEEE ICRA 2025</strong>!"
 
 - date: 2024-08-01
   tag: milestone

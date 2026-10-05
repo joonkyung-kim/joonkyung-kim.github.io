@@ -10,7 +10,7 @@ authors: <u>Joonkyung Kim</u><sup>+</sup>, Wenxi Chen<sup>+</sup>, Davood Soleym
 venue: International Conference on Machine Learning (ICML) Position Track, 2026
 buttons:
   - type: paper
-    url: https://arxiv.org/pdf/2602.04056
+    url: https://openreview.net/forum?id=a4imO33mN1
   
 ---
 

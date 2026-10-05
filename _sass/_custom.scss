@@ -153,26 +153,35 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-/* Nav entries as small cards — the site title stays plain text */
-.masthead__menu-item:not(.masthead__menu-item--lg) > a {
-  @include card-surface;
-  background-color: var(--nav-tint);
-  border-radius: 6px;
-  margin: 0 0.3rem;
-  padding: 0.22rem 0.7rem;
-  transition: background-color 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-
-  &:hover {
-    background-color: var(--nav-tint-hover);
-    border-color: var(--accent-soft);
-    box-shadow: 0 1px 2px rgba(20, 24, 40, 0.06), 0 4px 10px rgba(20, 24, 40, 0.07);
+/* With the sidebar showing, start the first tab at the left edge of the page
+   content (sidebar 15.25% + gap 1.69% + content padding 4.24% = 21.19% of the
+   container), so the menu lines up with the "About Me" column. The nav is a
+   table, so a % width would resolve against its own shrink-wrapped size;
+   viewport units sidestep that. 1280px is the container's max-width. */
+@media (min-width: 57.8125em) {
+  .masthead__menu-item--lg {
+    width: calc((min(100vw, 1280px) - 2em) * 0.2119 - 1rem);
+    padding-right: 0;
   }
 }
 
-/* Current section — marked by the border, since the label stays black */
-.masthead__menu-item.is-active > a {
-  background-color: var(--nav-tint-hover);
-  border-color: var(--text);
+/* Nav entries: plain text in the same serif as the site title */
+.masthead__menu-item:not(.masthead__menu-item--lg) > a {
+  font-family: var(--font-serif);
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0.3rem;
+  padding: 0.22rem 0.7rem;
+
+  &:hover {
+    color: var(--text);
+  }
+}
+
+/* Current section — the theme's hover bar stays revealed, since the label stays black */
+.masthead__menu-item.is-active > a:before {
+  transform: scaleX(1);
 }
 
 /* --------------------------------------------------------------------------
@@ -203,6 +212,8 @@ h1, h2, h3, h4, h5, h6,
      of 50% renders an ellipse rather than a circle. */
   aspect-ratio: 1;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
   /* The card already frames the photo; a second ring would double up. */
   padding: 0;
   border: 0;
@@ -277,18 +288,20 @@ a.inline-link {
   font-weight: 500;
 }
 
-/* Navigable variant: filled accent, matching the CV download button */
-.chip--link {
-  background-color: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
+/* Navigable variant: bold underlined text link, same treatment as "Show all".
+   Qualified with .chip-row so the theme's `.archive a` (no underline) loses. */
+.chip-row .chip--link {
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  transition: color 0.15s ease;
 
   &:hover {
-    background-color: var(--accent-hover);
-    border-color: var(--accent-hover);
-    color: #fff;
+    color: var(--accent-hover);
+    text-decoration: underline;
   }
 }
 
@@ -443,15 +456,12 @@ a.inline-link {
     align-items: center;
     gap: 0.3rem;
     margin-top: 0.9rem;
-    padding: 0.1rem 0.55rem;
-    background-color: var(--accent);
-    border: 1px solid var(--accent);
-    border-radius: 4px;
-    color: #fff;
+    padding: 0;
+    color: var(--text-muted);
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
-    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    transition: color 0.15s ease;
 
     /* Drop the native disclosure triangle; the caret below replaces it. */
     list-style: none;
@@ -461,17 +471,18 @@ a.inline-link {
     }
 
     &:after {
-      content: "▾";
+      content: "";
       display: inline-block;
-      font-size: 0.85em;
-      line-height: 1;
+      width: 1.1em;
+      height: 1.1em;
+      background-color: currentColor;
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") center / contain no-repeat;
+      mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") center / contain no-repeat;
       transition: transform 0.15s ease;
     }
 
     &:hover {
-      background-color: var(--accent-hover);
-      border-color: var(--accent-hover);
-      color: #fff;
+      color: var(--accent);
     }
 
     &:focus-visible {
@@ -491,6 +502,11 @@ a.inline-link {
 
 /* Real text nodes, toggled by the open state — no generated content, so
    screen readers announce the label correctly. */
+.news-more__open,
+.news-more__close {
+  text-decoration: underline;
+}
+
 .news-more__close {
   display: none;
 }
@@ -570,17 +586,51 @@ a.inline-link {
 .news-item__text {
   flex: 1;
   min-width: 200px;
+}
 
-  /* Venue names are wrapped in <strong> in _data/news.yml; italicising them
-     here keeps the markup as-is while matching the about page's treatment. */
-  strong {
-    font-style: italic;
-  }
+/* Links inside a news entry; qualified so the theme's no-underline rule loses. */
+.news-list .news-item__text a {
+  text-decoration: underline;
+}
+
+.news-list .news-item__text a.no-underline {
+  text-decoration: none;
 }
 
 /* --------------------------------------------------------------------------
    Publication list — no card chrome, hairline separators only
    -------------------------------------------------------------------------- */
+
+/* Type badge: C / J / W, shown on each published entry and in the legend */
+.pub-type {
+  display: inline-block;
+  min-width: 1.5em;
+  margin-right: 0.35em;
+  padding: 0 0.3em;
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.75em;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: 0.1em;
+}
+
+.pub-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.6rem;
+  margin: 1rem 0;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.pub-legend__sep {
+  color: var(--text-faint);
+}
 
 .pub-year {
   margin: 1.6rem 0 0.7rem;
@@ -660,6 +710,14 @@ a.inline-link {
 .pub-item__venue {
   color: var(--text-muted);
   font-style: italic;
+}
+
+.pub-item__award {
+  margin: 0 0 0.15rem;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text);
 }
 
 .pub-item__links {

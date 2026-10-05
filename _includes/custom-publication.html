@@ -10,6 +10,15 @@
       {% if include.prefix and include.number %}
       <span class="pub-item__index">[{{ include.prefix }}{{ include.number }}]</span>
       {% endif %}
+      {% assign type_badge = post.badge %}
+      {% unless type_badge %}
+        {% case post.category %}
+          {% when "conferences" %}{% assign type_badge = "C" %}
+          {% when "journals" %}{% assign type_badge = "J" %}
+          {% when "workshops" %}{% assign type_badge = "W" %}
+        {% endcase %}
+      {% endunless %}
+      {% if type_badge %}<span class="pub-type">{{ type_badge }}</span>{% endif %}
       {{ post.title }}
     </h3>
 
@@ -19,6 +28,16 @@
 
     {% if post.venue %}
     <p class="pub-item__venue">{{ post.venue }}</p>
+    {% endif %}
+
+    {% if post.workshop %}
+    <p class="pub-item__venue">
+      {% if post.workshop_url %}<a class="inline-link" href="{{ post.workshop_url }}" target="_blank">{{ post.workshop }}</a>{% else %}{{ post.workshop }}{% endif %}
+    </p>
+    {% endif %}
+
+    {% if post.award %}
+    <p class="pub-item__award"><i class="fas fa-trophy"></i> {{ post.award }}</p>
     {% endif %}
 
     {% if post.buttons %}

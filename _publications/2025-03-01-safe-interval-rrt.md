@@ -7,7 +7,7 @@ permalink: /publication/safe-interval-rrt
 header:
   teaser: /images/SI-RRT_fig.png
 authors: Joonyeol Sim, <u>Joonkyung Kim</u>, and Changjoo Nam<sup>*</sup>
-venue: Preprint
+venue: Under Review
 buttons:
   - type: paper
     url: https://arxiv.org/pdf/2404.01752

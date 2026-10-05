@@ -79,11 +79,13 @@ publication_category:
   # books:
   #   title: "Books"
   manuscripts:
-    title: "Preprints"
+    title: "Under Review"
   conferences:
     title: "Conferences"
   journals:
     title: "Journals"
+  workshops:
+    title: "Workshops"
   # preprints:
   #   title: "Preprints"
 
