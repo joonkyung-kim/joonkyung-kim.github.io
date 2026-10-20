@@ -24,8 +24,10 @@
   --nav-tint: #eef1f8;
   --nav-tint-hover: #e2e7f4;
 
-  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --font-sans: "Inter", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  /* One family for headings and body, like tomsilver.github.io. The variable
+     names stay so every existing rule keeps working. */
+  --font-serif: "Roboto", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Roboto", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Anchor jumps glide instead of teleporting — but respect reduced-motion */
@@ -76,6 +78,13 @@ html {
 /* --------------------------------------------------------------------------
    Typography: serif headings, sans body
    -------------------------------------------------------------------------- */
+
+html,
+body {
+  /* Soft grey page background (Bootstrap's "bg-light"), so the white cards
+     and the white header stand out against it. */
+  background-color: #f8f9fa;
+}
 
 body {
   font-family: var(--font-sans);
@@ -142,6 +151,10 @@ h1, h2, h3, h4, h5, h6,
 
 /* Site title: same serif voice as the page headings */
 .masthead__menu-item--lg a {
+  /* The theme makes links `display: block`, which stretches the hover bar
+     across the whole fixed-width cell. Shrink-wrapping the link puts the bar
+     exactly under the name. */
+  display: inline-block;
   font-family: var(--font-serif);
   font-size: 1.2em;
   font-weight: 600;
@@ -521,12 +534,15 @@ a.inline-link {
   }
 }
 
+/* Four fixed columns — bullet, date, tag, text — so every entry's text starts
+   at the same x and wrapped lines stay in the text column instead of
+   running back under the tag. */
 .news-item {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 0.6rem 4.7rem 5.4rem minmax(0, 1fr);
   align-items: baseline;
-  gap: 0.5rem;
-  margin-bottom: 0.55rem;
+  column-gap: 0.5rem;
+  margin-bottom: 0.7rem;
 
   /* Decorative marker — generated content keeps it out of the text layer,
      so screen readers and copied text skip it. */
@@ -537,7 +553,6 @@ a.inline-link {
 }
 
 .news-item__date {
-  min-width: 84px;
   color: var(--text);
   font-variant-numeric: tabular-nums;
 }
@@ -548,6 +563,7 @@ a.inline-link {
    the color is redundant encoding and safe for color-blind readers. */
 .news-item__tag {
   padding: 0.08rem 0.45rem;
+  text-align: center;
   border-radius: 3px;
   background-color: #f0f1f2;
   color: #55595e;
@@ -584,38 +600,42 @@ a.inline-link {
 }
 
 .news-item__text {
-  flex: 1;
-  min-width: 200px;
+  min-width: 0;
+  line-height: 1.5;
 }
 
-/* Links inside a news entry; qualified so the theme's no-underline rule loses. */
-.news-list .news-item__text a {
-  text-decoration: underline;
-}
+/* Phones: no room for four columns, so the text drops under the date and tag
+   and aligns with the date. */
+@media (max-width: 600px) {
+  .news-item {
+    grid-template-columns: 0.6rem 4.7rem auto;
+    justify-content: start;
+    row-gap: 0.25rem;
+  }
 
-.news-list .news-item__text a.no-underline {
-  text-decoration: none;
+  .news-item__text {
+    grid-column: 2 / -1;
+  }
 }
 
 /* --------------------------------------------------------------------------
    Publication list — no card chrome, hairline separators only
    -------------------------------------------------------------------------- */
 
-/* Type badge: C / J / W, shown on each published entry and in the legend */
+/* Type marker: [C] / [J] / [W] / [U], shown on each entry and in the legend.
+   Brackets are generated content, so copied text stays "C", not "[C]". */
 .pub-type {
-  display: inline-block;
-  min-width: 1.5em;
-  margin-right: 0.35em;
-  padding: 0 0.3em;
-  border: 1px solid var(--rule-strong);
-  border-radius: 4px;
-  color: var(--text-muted);
-  font-family: var(--font-sans);
-  font-size: 0.75em;
+  margin-right: 0.3em;
+  color: var(--text);
   font-weight: 600;
-  line-height: 1.5;
-  text-align: center;
-  vertical-align: 0.1em;
+
+  &:before {
+    content: "[";
+  }
+
+  &:after {
+    content: "]";
+  }
 }
 
 .pub-legend {
@@ -633,7 +653,9 @@ a.inline-link {
 }
 
 .pub-year {
-  margin: 1.6rem 0 0.7rem;
+  margin: 1.8rem 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
   font-family: var(--font-sans);
   font-size: 0.95em;
   font-weight: 600;
@@ -671,11 +693,21 @@ a.inline-link {
 
 .pub-item__thumb {
   flex: 0 0 150px;
+  /* Centre on the card's horizontal axis, so the image sits mid-height
+     beside the text instead of hugging the top. */
+  align-self: center;
 
+  /* The teasers have different aspect ratios, which made every card a
+     different height. A fixed 4:3 frame keeps the list on one rhythm, and
+     `contain` shows each figure whole instead of cropping it. */
   img {
     display: block;
     width: 100%;
-    border-radius: 3px;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    background-color: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
   }
 }
 
@@ -686,7 +718,7 @@ a.inline-link {
 
 .pub-item__title {
   margin: 0 0 0.3rem;
-  font-size: 1.08em; // the title must outrank the author/venue lines (0.85em)
+  font-size: 1em; // the title must outrank the author/venue lines (0.85em)
   line-height: 1.3;
 }
 
@@ -723,8 +755,8 @@ a.inline-link {
 .pub-item__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1rem;
-  margin: 0.55rem 0 0;
+  gap: 0.4rem 1.1rem;
+  margin: 0.6rem 0 0;
 }
 
 /* The primary call to action on the site — it earns the accent color */

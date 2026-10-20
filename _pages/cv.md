@@ -43,7 +43,7 @@ hide_profile_mobile: true
 
 <!-- Download button (always visible) -->
 <div style="margin: 1rem 0;">
-  <a class="cv-download-btn" href="{{ '/files/Joonkyung_Kim_CV_recent.pdf' | relative_url }}" target="_blank">
+  <a class="cv-download-btn" href="{{ '/files/Joonkyung_Kim_CV.pdf' | relative_url }}" target="_blank">
     <i class="fas fa-file-pdf"></i> Download CV (PDF)
   </a>
 </div>
@@ -55,8 +55,8 @@ hide_profile_mobile: true
 
 <!-- Desktop embedded preview (hidden on mobile) -->
 <div class="cv-iframe-wrapper">
-  <iframe src="{{ '/files/Joonkyung_Kim_CV_recent.pdf' | relative_url }}" width="100%" height="1000px" style="border: none;">
+  <iframe src="{{ '/files/Joonkyung_Kim_CV.pdf' | relative_url }}" width="100%" height="1000px" style="border: none;">
     This browser does not support PDFs. Please download the PDF to view it:
-    <a href="{{ '/files/Joonkyung_Kim_CV_recent.pdf' | relative_url }}">Download PDF</a>
+    <a href="{{ '/files/Joonkyung_Kim_CV.pdf' | relative_url }}">Download PDF</a>
   </iframe>
 </div>

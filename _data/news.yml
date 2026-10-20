@@ -3,9 +3,13 @@
 # Sorted automatically by date (newest first) — order here doesn't matter.
 # Wrap key venue/institution names in <strong>...</strong> to highlight them.
 
+- date: 2026-09-25
+  tag: paper
+  text: "Our <a href=\"https://arxiv.org/abs/2610.17409\">paper</a> is accepted to <strong>NeurIPS 2026 position track</strong>!"
+
 - date: 2026-09-04
   tag: award
-  text: "Our <a href=\"https://arxiv.org/abs/2604.13245\">paper</a> received the <strong>Best Paper Award</strong> at the <a class=\"no-underline\" href=\"https://sites.google.com/view/iros2026-2nd-wrwcmrc/home\"><strong>IROS 2026 RWCMRC-2 Workshop</strong></a>!"
+  text: "Our <a href=\"https://arxiv.org/abs/2604.13245\">paper</a> received the <strong>Best Paper Award</strong> at the <a href=\"https://sites.google.com/view/iros2026-2nd-wrwcmrc/home\"><strong>IROS 2026 RWCMRC-2 Workshop</strong></a>!"
 
 - date: 2026-04-01
   tag: paper

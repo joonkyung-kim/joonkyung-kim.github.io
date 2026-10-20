@@ -16,9 +16,16 @@
           {% when "conferences" %}{% assign type_badge = "C" %}
           {% when "journals" %}{% assign type_badge = "J" %}
           {% when "workshops" %}{% assign type_badge = "W" %}
+          {% when "manuscripts" %}{% assign type_badge = "U" %}
         {% endcase %}
       {% endunless %}
-      {% if type_badge %}<span class="pub-type">{{ type_badge }}</span>{% endif %}
+      {% if type_badge %}
+        {% comment %} Number within the category, oldest = 1, to match the CV. {% endcomment %}
+        {% assign same_type = site.publications | where: "category", post.category | sort: "date" %}
+        {% assign pub_num = "" %}
+        {% for p in same_type %}{% if p.url == post.url %}{% assign pub_num = forloop.index %}{% endif %}{% endfor %}
+        <span class="pub-type">{{ type_badge }}{{ pub_num }}{% if post.extra_badge %}, {{ post.extra_badge }}{% endif %}</span>
+      {% endif %}
       {{ post.title }}
     </h3>
 
